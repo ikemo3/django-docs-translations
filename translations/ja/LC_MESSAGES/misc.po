@@ -1,7 +1,7 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) Django Software Foundation and contributors
 # This file is distributed under the same license as the Django package.
-#
+# 
 # Translators:
 # Kashun YOSHIDA, 2017
 # TAKAHASHI Shuuji <shuuji3@gmail.com>, 2017,2019
@@ -14,20 +14,21 @@ msgid ""
 msgstr ""
 "Project-Id-Version: django-docs\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-12-13 05:44-0600\n"
+"POT-Creation-Date: 2020-08-28 13:42-0500\n"
 "PO-Revision-Date: 2019-12-11 10:51+0000\n"
 "Last-Translator: Takuya N <takninnovationresearch@gmail.com>\n"
-"Language-Team: Japanese (http://www.transifex.com/django/django-docs/"
-"language/ja/)\n"
+"Language-Team: Japanese (http://www.transifex.com/django/django-docs/language/ja/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: ja\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
+#: ../../../../sources/3.1/docs/misc/api-stability.txt:3
 msgid "API stability"
 msgstr "API の安定性"
 
+#: ../../../../sources/3.1/docs/misc/api-stability.txt:5
 msgid ""
 "Django is committed to API stability and forwards-compatibility. In a "
 "nutshell, this means that code you develop against a version of Django will "
@@ -35,14 +36,9 @@ msgid ""
 "when upgrading the version of Django your project uses: see the \"Backwards "
 "incompatible changes\" section of the :doc:`release note </releases/index>` "
 "for the version or versions to which you are upgrading."
-msgstr ""
-"Django は API安定性と先方互換性に対して約束をしています。つまり、一度あるバー"
-"ジョンの Django で開発されたコードは将来の Django リリースでも動作し続けると"
-"いうことです。利用する Django のバージョンをアップグレードする場合は、小さな"
-"変更を加えなければいけない場合もあります: アップグレード前後のバージョンの "
-"doc:`release note </releases/index>` の\"後方互換性のない変更\" セクションを"
-"見てください。"
+msgstr "Django は API安定性と先方互換性に対して約束をしています。つまり、一度あるバージョンの Django で開発されたコードは将来の Django リリースでも動作し続けるということです。利用する Django のバージョンをアップグレードする場合は、小さな変更を加えなければいけない場合もあります: アップグレード前後のバージョンの doc:`release note </releases/index>` の\"後方互換性のない変更\" セクションを見てください。"
 
+#: ../../../../sources/3.1/docs/misc/api-stability.txt:12
 msgid ""
 "At the same time as making API stability a very high priority, Django is "
 "also committed to continual improvement, along with aiming for \"one way to "
@@ -54,314 +50,300 @@ msgid ""
 "both stagnation and large breaking upgrades."
 msgstr ""
 
+#: ../../../../sources/3.1/docs/misc/api-stability.txt:22
 msgid "What \"stable\" means"
 msgstr "\"stable\" とは？"
 
+#: ../../../../sources/3.1/docs/misc/api-stability.txt:24
 msgid "In this context, stable means:"
 msgstr "現在の文脈では、stable とは次のことを意味します。"
 
+#: ../../../../sources/3.1/docs/misc/api-stability.txt:26
 msgid ""
 "All the public APIs (everything in this documentation) will not be moved or "
 "renamed without providing backwards-compatible aliases."
-msgstr ""
-"すべてのパブリック API (このドキュメントに書かれている全部です) は、基本的に"
-"移動や名称の変更が行われることがない。もし行われるとしても、後方互換性のため"
-"のエイリアスが必ず提供される。"
+msgstr "すべてのパブリック API (このドキュメントに書かれている全部です) は、基本的に移動や名称の変更が行われることがない。もし行われるとしても、後方互換性のためのエイリアスが必ず提供される。"
 
+#: ../../../../sources/3.1/docs/misc/api-stability.txt:29
 msgid ""
 "If new features are added to these APIs -- which is quite possible -- they "
 "will not break or change the meaning of existing methods. In other words, "
 "\"stable\" does not (necessarily) mean \"complete.\""
-msgstr ""
-"もし新しい機能がこれらの API に追加されるなら (よくあることです)、すでに存在"
-"するメソッドの意味を変えたり、壊したりすることがない。別の言い方をすれ"
-"ば、\"stable\" とは必ずしも \"complete\" (完全) であることを意味するわけでは"
-"ない。"
+msgstr "もし新しい機能がこれらの API に追加されるなら (よくあることです)、すでに存在するメソッドの意味を変えたり、壊したりすることがない。別の言い方をすれば、\"stable\" とは必ずしも \"complete\" (完全) であることを意味するわけではない。"
 
+#: ../../../../sources/3.1/docs/misc/api-stability.txt:33
 msgid ""
 "If, for some reason, an API declared stable must be removed or replaced, it "
 "will be declared deprecated but will remain in the API for at least two "
 "feature releases. Warnings will be issued when the deprecated method is "
 "called."
-msgstr ""
-"何からの理由により、一度 stable であると宣言された API を削除したり置き換えた"
-"りしなければならなくなった場合には、deprecated (廃止) であると明言され、最低"
-"でも2つのフィーチャーリリースの間は削除されずに残される。deprecated となった"
-"メソッドが呼び出されたときは、警告が出される。"
+msgstr "何からの理由により、一度 stable であると宣言された API を削除したり置き換えたりしなければならなくなった場合には、deprecated (廃止) であると明言され、最低でも2つのフィーチャーリリースの間は削除されずに残される。deprecated となったメソッドが呼び出されたときは、警告が出される。"
 
+#: ../../../../sources/3.1/docs/misc/api-stability.txt:38
 msgid ""
 "See :ref:`official-releases` for more details on how Django's version "
 "numbering scheme works, and how features will be deprecated."
-msgstr ""
-"Django のバージョンナンバリングのスキームの仕組みや、特定の機能の廃止されるプ"
-"ロセスについて詳しく知りたければ、 :ref:`official-releases` を読んでくださ"
-"い。"
+msgstr "Django のバージョンナンバリングのスキームの仕組みや、特定の機能の廃止されるプロセスについて詳しく知りたければ、 :ref:`official-releases` を読んでください。"
 
+#: ../../../../sources/3.1/docs/misc/api-stability.txt:41
 msgid ""
-"We'll only break backwards compatibility of these APIs without a deprecation "
-"process if a bug or security hole makes it completely unavoidable."
+"We'll only break backwards compatibility of these APIs without a deprecation"
+" process if a bug or security hole makes it completely unavoidable."
 msgstr ""
 
+#: ../../../../sources/3.1/docs/misc/api-stability.txt:45
 msgid "Stable APIs"
 msgstr "stable な API"
 
+#: ../../../../sources/3.1/docs/misc/api-stability.txt:47
 msgid ""
-"In general, everything covered in the documentation -- with the exception of "
-"anything in the :doc:`internals area </internals/index>` is considered "
+"In general, everything covered in the documentation -- with the exception of"
+" anything in the :doc:`internals area </internals/index>` is considered "
 "stable."
-msgstr ""
-"一般に、ドキュメントに書かれていることは、:doc:`内部の仕組み </internals/"
-"index>` の部分を除いて、すべて stable だと考えてもらって大丈夫です。"
+msgstr "一般に、ドキュメントに書かれていることは、:doc:`内部の仕組み </internals/index>` の部分を除いて、すべて stable だと考えてもらって大丈夫です。"
 
+#: ../../../../sources/3.1/docs/misc/api-stability.txt:51
 msgid "Exceptions"
 msgstr "例外"
 
+#: ../../../../sources/3.1/docs/misc/api-stability.txt:53
 msgid ""
 "There are a few exceptions to this stability and backwards-compatibility "
 "promise."
 msgstr "安定性と後方互換性の保証について、数点だけ例外があります。"
 
+#: ../../../../sources/3.1/docs/misc/api-stability.txt:57
 msgid "Security fixes"
 msgstr "セキュリティ上の修正"
 
+#: ../../../../sources/3.1/docs/misc/api-stability.txt:59
 msgid ""
 "If we become aware of a security problem -- hopefully by someone following "
-"our :ref:`security reporting policy <reporting-security-issues>` -- we'll do "
-"everything necessary to fix it. This might mean breaking backwards "
+"our :ref:`security reporting policy <reporting-security-issues>` -- we'll do"
+" everything necessary to fix it. This might mean breaking backwards "
 "compatibility; security trumps the compatibility guarantee."
-msgstr ""
-"もしセキュリティ上の問題に気がついた人がいたならば、:ref:`セキュリティ問題報"
-"告ポリシー <reporting-security-issues>` にしたがって報告するようにお願いしま"
-"す。速やかに必要な修正作業を行います。セキュリティは互換性の保証よりも優先さ"
-"れるため、やむを得ない場合には、後方互換性を壊すような修正が行われる可能性も"
-"あります。"
+msgstr "もしセキュリティ上の問題に気がついた人がいたならば、:ref:`セキュリティ問題報告ポリシー <reporting-security-issues>` にしたがって報告するようにお願いします。速やかに必要な修正作業を行います。セキュリティは互換性の保証よりも優先されるため、やむを得ない場合には、後方互換性を壊すような修正が行われる可能性もあります。"
 
+#: ../../../../sources/3.1/docs/misc/api-stability.txt:65
 msgid "APIs marked as internal"
 msgstr "internal と記された API"
 
+#: ../../../../sources/3.1/docs/misc/api-stability.txt:67
 msgid "Certain APIs are explicitly marked as \"internal\" in a couple of ways:"
-msgstr ""
-"特定の API は、次のような方法で、明示的に \"internal\" (内部実装) と明記され"
-"ています。"
+msgstr "特定の API は、次のような方法で、明示的に \"internal\" (内部実装) と明記されています。"
 
+#: ../../../../sources/3.1/docs/misc/api-stability.txt:69
 msgid ""
 "Some documentation refers to internals and mentions them as such. If the "
 "documentation says that something is internal, we reserve the right to "
 "change it."
-msgstr ""
-"ドキュメントの中には内部実装を参照していたり、内部実装であると述べている箇所"
-"があります。もし、ドキュメントが「これは内部実装である」と述べている場合、そ"
-"の箇所は変更される場合があります。"
+msgstr "ドキュメントの中には内部実装を参照していたり、内部実装であると述べている箇所があります。もし、ドキュメントが「これは内部実装である」と述べている場合、その箇所は変更される場合があります。"
 
+#: ../../../../sources/3.1/docs/misc/api-stability.txt:73
 msgid ""
 "Functions, methods, and other objects prefixed by a leading underscore "
 "(``_``). This is the standard Python way of indicating that something is "
 "private; if any method starts with a single ``_``, it's an internal API."
-msgstr ""
-"先頭にアンダースコア( ``_`` )が付いた関数、メソッド、およびその他のオブジェク"
-"トは、プライベートなものであることを示すPythonの標準的な方法です。 いずれかの"
-"メソッドが単一の ``_`` で始まる場合、それは内部APIです。"
+msgstr "先頭にアンダースコア( ``_`` )が付いた関数、メソッド、およびその他のオブジェクトは、プライベートなものであることを示すPythonの標準的な方法です。 いずれかのメソッドが単一の ``_`` で始まる場合、それは内部APIです。"
 
+#: ../../../../sources/3.1/docs/misc/design-philosophies.txt:3
 msgid "Design philosophies"
 msgstr "設計思想"
 
+#: ../../../../sources/3.1/docs/misc/design-philosophies.txt:5
 msgid ""
 "This document explains some of the fundamental philosophies Django's "
 "developers have used in creating the framework. Its goal is to explain the "
 "past and guide the future."
-msgstr ""
-"このドキュメントでは、 Django の開発者たちがフレームワークの構築に取り入れ て"
-"いる根本的な設計思想についていくつか解説します。それによって、 Django の これ"
-"までの経緯に説明を与えつつ、将来への指針にしたいと思います。"
+msgstr "このドキュメントでは、 Django の開発者たちがフレームワークの構築に取り入れ ている根本的な設計思想についていくつか解説します。それによって、 Django の これまでの経緯に説明を与えつつ、将来への指針にしたいと思います。"
 
+#: ../../../../sources/3.1/docs/misc/design-philosophies.txt:10
 msgid "Overall"
 msgstr "概要"
 
+#: ../../../../sources/3.1/docs/misc/design-philosophies.txt:15
+#: ../../../../sources/3.1/docs/misc/design-philosophies.txt:155
+#: ../../../../sources/3.1/docs/misc/design-philosophies.txt:296
 msgid "Loose coupling"
 msgstr "疎結合"
 
+#: ../../../../sources/3.1/docs/misc/design-philosophies.txt:19
 msgid ""
 "A fundamental goal of Django's stack is `loose coupling and tight "
 "cohesion`_. The various layers of the framework shouldn't \"know\" about "
 "each other unless absolutely necessary."
-msgstr ""
-"Django スタックの基本的な目標は、`疎結合と高い凝集度`_ を実現することです。フ"
-"レームワークの各レイヤーは絶対に必要でない限り、相手をお互いに「知る」べきで"
-"はありません。"
+msgstr "Django スタックの基本的な目標は、`疎結合と高い凝集度`_ を実現することです。フレームワークの各レイヤーは絶対に必要でない限り、相手をお互いに「知る」べきではありません。"
 
+#: ../../../../sources/3.1/docs/misc/design-philosophies.txt:23
 msgid ""
 "For example, the template system knows nothing about Web requests, the "
 "database layer knows nothing about data display and the view system doesn't "
 "care which template system a programmer uses."
-msgstr ""
-"たとえば、テンプレートシステムはウェブリクエストに関して、データベースレイ"
-"ヤーはデータの表示に関して、ビューシステムはプログラマーが使用しているテンプ"
-"レートシステムがどんなものか、何も知りません。"
+msgstr "たとえば、テンプレートシステムはウェブリクエストに関して、データベースレイヤーはデータの表示に関して、ビューシステムはプログラマーが使用しているテンプレートシステムがどんなものか、何も知りません。"
 
+#: ../../../../sources/3.1/docs/misc/design-philosophies.txt:27
 msgid ""
 "Although Django comes with a full stack for convenience, the pieces of the "
 "stack are independent of another wherever possible."
-msgstr ""
-"Django は利便性のためにフルスタックとなってはいますが、スタックのどのコンポー"
-"ネントも、可能な限り独立させてあります。"
+msgstr "Django は利便性のためにフルスタックとなってはいますが、スタックのどのコンポーネントも、可能な限り独立させてあります。"
 
+#: ../../../../sources/3.1/docs/misc/design-philosophies.txt:35
+#: ../../../../sources/3.1/docs/misc/design-philosophies.txt:315
 msgid "Less code"
 msgstr "短いコード"
 
+#: ../../../../sources/3.1/docs/misc/design-philosophies.txt:37
 msgid ""
 "Django apps should use as little code as possible; they should lack "
 "boilerplate. Django should take full advantage of Python's dynamic "
 "capabilities, such as introspection."
-msgstr ""
-"Django のアプリはボイラープレートを書かなくて済むようにできるだけ短いコードに"
-"なるようにされています。Django は、たとえばイントロスペクションなどの Python "
-"の動的な性質を最大限に生かすようになっています。"
+msgstr "Django のアプリはボイラープレートを書かなくて済むようにできるだけ短いコードになるようにされています。Django は、たとえばイントロスペクションなどの Python の動的な性質を最大限に生かすようになっています。"
 
+#: ../../../../sources/3.1/docs/misc/design-philosophies.txt:44
 msgid "Quick development"
 msgstr "素早い開発"
 
+#: ../../../../sources/3.1/docs/misc/design-philosophies.txt:46
 msgid ""
 "The point of a Web framework in the 21st century is to make the tedious "
 "aspects of Web development fast. Django should allow for incredibly quick "
 "Web development."
-msgstr ""
-"21世紀のウェブフレームワークに重要なことは、ウェブ開発の様々な側面を高速で行"
-"えるようになっていることです。Django は驚くほど素早いウェブ開発を可能としてい"
-"ます。"
+msgstr "21世紀のウェブフレームワークに重要なことは、ウェブ開発の様々な側面を高速で行えるようになっていることです。Django は驚くほど素早いウェブ開発を可能としています。"
 
+#: ../../../../sources/3.1/docs/misc/design-philosophies.txt:53
 msgid "Don't repeat yourself (DRY)"
 msgstr "同じことを繰り返さない (DRY)"
 
+#: ../../../../sources/3.1/docs/misc/design-philosophies.txt:59
 msgid ""
 "Every distinct concept and/or piece of data should live in one, and only "
 "one, place. Redundancy is bad. Normalization is good."
-msgstr ""
-"多大に区別される概念やデータ構造は、ただ1箇所のみに存在するべきです。冗長性は"
-"悪であり、正規化は善です。"
+msgstr "多大に区別される概念やデータ構造は、ただ1箇所のみに存在するべきです。冗長性は悪であり、正規化は善です。"
 
+#: ../../../../sources/3.1/docs/misc/design-philosophies.txt:62
 msgid ""
 "The framework, within reason, should deduce as much as possible from as "
 "little as possible."
-msgstr ""
-"フレームワークは、合理的な範囲内で可能な限り少ないものからできる限り多くのも"
-"のを推測するべきです。"
+msgstr "フレームワークは、合理的な範囲内で可能な限り少ないものからできる限り多くのものを推測するべきです。"
 
+#: ../../../../sources/3.1/docs/misc/design-philosophies.txt:67
 msgid "The `discussion of DRY on the Portland Pattern Repository`__"
 msgstr "`Portland Pattern Repository に DRY に関する議論があります`__"
 
+#: ../../../../sources/3.1/docs/misc/design-philosophies.txt:74
+#: ../../../../sources/3.1/docs/misc/design-philosophies.txt:95
 msgid "Explicit is better than implicit"
 msgstr "暗黙よりもはっきり示した方がいい (Explicit is better than implicit)"
 
+#: ../../../../sources/3.1/docs/misc/design-philosophies.txt:76
 msgid ""
 "This is a core Python principle listed in :pep:`20`, and it means Django "
 "shouldn't do too much \"magic.\" Magic shouldn't happen unless there's a "
 "really good reason for it. Magic is worth using only if it creates a huge "
 "convenience unattainable in other ways, and it isn't implemented in a way "
 "that confuses developers who are trying to learn how to use the feature."
-msgstr ""
-"これは、:pep:`20` にリストアップされた Python の核となる原則の1つです。つま"
-"り、Django は「魔法」を使いすぎてはならないということです。魔法を使っても良い"
-"のは、それを本当に使うべき理由があるとき、他の方法では到達できない非常に大き"
-"な利便性があるときだけです。ある機能の使い方を学ぶ開発者を混乱させるような方"
-"法で実装してはいけません。"
+msgstr "これは、:pep:`20` にリストアップされた Python の核となる原則の1つです。つまり、Django は「魔法」を使いすぎてはならないということです。魔法を使っても良いのは、それを本当に使うべき理由があるとき、他の方法では到達できない非常に大きな利便性があるときだけです。ある機能の使い方を学ぶ開発者を混乱させるような方法で実装してはいけません。"
 
+#: ../../../../sources/3.1/docs/misc/design-philosophies.txt:85
+#: ../../../../sources/3.1/docs/misc/design-philosophies.txt:322
 msgid "Consistency"
 msgstr "一貫性"
 
+#: ../../../../sources/3.1/docs/misc/design-philosophies.txt:87
 msgid ""
 "The framework should be consistent at all levels. Consistency applies to "
 "everything from low-level (the Python coding style used) to high-level (the "
 "\"experience\" of using Django)."
-msgstr ""
-"フレームワークはあらゆるレベルで一貫性を持たなければなりません。一貫性は、低"
-"レベル (採用する Python のコーディングスタイル) から高レベル (Django の使い"
-"方) までのあらゆる点で保たれなければなりません。"
+msgstr "フレームワークはあらゆるレベルで一貫性を持たなければなりません。一貫性は、低レベル (採用する Python のコーディングスタイル) から高レベル (Django の使い方) までのあらゆる点で保たれなければなりません。"
 
+#: ../../../../sources/3.1/docs/misc/design-philosophies.txt:92
 msgid "Models"
 msgstr "モデル"
 
+#: ../../../../sources/3.1/docs/misc/design-philosophies.txt:97
 msgid ""
 "Fields shouldn't assume certain behaviors based solely on the name of the "
 "field. This requires too much knowledge of the system and is prone to "
-"errors. Instead, behaviors should be based on keyword arguments and, in some "
-"cases, on the type of the field."
-msgstr ""
-"フィールド名のみに基づいてフィールドの振る舞いが決まるべきではありません。そ"
-"のようにしてしまうと、システム全体に対する深い知識が必要となり、誤りの原因と"
-"なりやすいです。その代わりに、キーワード引数や、場合によってはフィールドの型"
-"によって振る舞いが変わるようにします。"
+"errors. Instead, behaviors should be based on keyword arguments and, in some"
+" cases, on the type of the field."
+msgstr "フィールド名のみに基づいてフィールドの振る舞いが決まるべきではありません。そのようにしてしまうと、システム全体に対する深い知識が必要となり、誤りの原因となりやすいです。その代わりに、キーワード引数や、場合によってはフィールドの型によって振る舞いが変わるようにします。"
 
+#: ../../../../sources/3.1/docs/misc/design-philosophies.txt:103
 msgid "Include all relevant domain logic"
 msgstr "関連するドメインのロジックをすべて含める"
 
+#: ../../../../sources/3.1/docs/misc/design-philosophies.txt:105
 msgid ""
 "Models should encapsulate every aspect of an \"object,\" following Martin "
 "Fowler's `Active Record`_ design pattern."
-msgstr ""
-"モジュールは、マーティン・ファウラーの `Active Record`_ のデザインパターンに"
-"従い、「オブジェクト」のすべての側面をカプセル化する必要がります。"
+msgstr "モジュールは、マーティン・ファウラーの `Active Record`_ のデザインパターンに従い、「オブジェクト」のすべての側面をカプセル化する必要がります。"
 
+#: ../../../../sources/3.1/docs/misc/design-philosophies.txt:108
 msgid ""
 "This is why both the data represented by a model and information about it "
 "(its human-readable name, options like default ordering, etc.) are defined "
 "in the model class; all the information needed to understand a given model "
 "should be stored *in* the model."
-msgstr ""
-"その理由は、モジュール (人間に読みやすい名前や、デフォルトの順序のオプション"
-"など) について、モデルと情報の両方が表現するデータはモデルクラスで定義されて"
-"おり、与えられたモデルを理解するのに必要なすべての情報はモデルの *中に* 存在"
-"するべきだからです。"
+msgstr "その理由は、モジュール (人間に読みやすい名前や、デフォルトの順序のオプションなど) について、モデルと情報の両方が表現するデータはモデルクラスで定義されており、与えられたモデルを理解するのに必要なすべての情報はモデルの *中に* 存在するべきだからです。"
 
+#: ../../../../sources/3.1/docs/misc/design-philosophies.txt:116
 msgid "Database API"
 msgstr "データベース API"
 
+#: ../../../../sources/3.1/docs/misc/design-philosophies.txt:118
 msgid "The core goals of the database API are:"
 msgstr "データベース API の主要な目的は、次のとおりです。"
 
+#: ../../../../sources/3.1/docs/misc/design-philosophies.txt:121
 msgid "SQL efficiency"
 msgstr "SQL の効率性"
 
+#: ../../../../sources/3.1/docs/misc/design-philosophies.txt:123
 msgid ""
 "It should execute SQL statements as few times as possible, and it should "
 "optimize statements internally."
-msgstr ""
-"SQLステートメントはなるべく少ない回数実行されるべきで、またステートメントは内"
-"部で最適化されるべきです。"
+msgstr "SQLステートメントはなるべく少ない回数実行されるべきで、またステートメントは内部で最適化されるべきです。"
 
+#: ../../../../sources/3.1/docs/misc/design-philosophies.txt:126
 msgid ""
 "This is why developers need to call ``save()`` explicitly, rather than the "
 "framework saving things behind the scenes silently."
-msgstr ""
-"フレームワークが舞台裏で黙って保存するのではなく、開発者が明示的に "
-"``save()`` を呼び出す必要があるのはこのためです。"
+msgstr "フレームワークが舞台裏で黙って保存するのではなく、開発者が明示的に ``save()`` を呼び出す必要があるのはこのためです。"
 
+#: ../../../../sources/3.1/docs/misc/design-philosophies.txt:129
 msgid ""
 "This is also why the ``select_related()`` ``QuerySet`` method exists. It's "
 "an optional performance booster for the common case of selecting \"every "
 "related object.\""
 msgstr ""
 
+#: ../../../../sources/3.1/docs/misc/design-philosophies.txt:134
 msgid "Terse, powerful syntax"
 msgstr ""
 
+#: ../../../../sources/3.1/docs/misc/design-philosophies.txt:136
 msgid ""
 "The database API should allow rich, expressive statements in as little "
 "syntax as possible. It should not rely on importing other modules or helper "
 "objects."
 msgstr ""
 
+#: ../../../../sources/3.1/docs/misc/design-philosophies.txt:139
 msgid ""
 "Joins should be performed automatically, behind the scenes, when necessary."
 msgstr ""
 
+#: ../../../../sources/3.1/docs/misc/design-philosophies.txt:141
 msgid ""
-"Every object should be able to access every related object, systemwide. This "
-"access should work both ways."
+"Every object should be able to access every related object, systemwide. This"
+" access should work both ways."
 msgstr ""
 
+#: ../../../../sources/3.1/docs/misc/design-philosophies.txt:145
 msgid "Option to drop into raw SQL easily, when needed"
 msgstr ""
 
+#: ../../../../sources/3.1/docs/misc/design-philosophies.txt:147
 msgid ""
 "The database API should realize it's a shortcut but not necessarily an end-"
 "all-be-all. The framework should make it easy to write custom SQL -- entire "
@@ -369,46 +351,56 @@ msgid ""
 "calls."
 msgstr ""
 
+#: ../../../../sources/3.1/docs/misc/design-philosophies.txt:152
 msgid "URL design"
 msgstr "URL デザイン"
 
+#: ../../../../sources/3.1/docs/misc/design-philosophies.txt:157
 msgid ""
 "URLs in a Django app should not be coupled to the underlying Python code. "
 "Tying URLs to Python function names is a Bad And Ugly Thing."
 msgstr ""
 
+#: ../../../../sources/3.1/docs/misc/design-philosophies.txt:160
 msgid ""
 "Along these lines, the Django URL system should allow URLs for the same app "
-"to be different in different contexts. For example, one site may put stories "
-"at ``/stories/``, while another may use ``/news/``."
+"to be different in different contexts. For example, one site may put stories"
+" at ``/stories/``, while another may use ``/news/``."
 msgstr ""
 
+#: ../../../../sources/3.1/docs/misc/design-philosophies.txt:165
 msgid "Infinite flexibility"
 msgstr ""
 
+#: ../../../../sources/3.1/docs/misc/design-philosophies.txt:167
 msgid ""
-"URLs should be as flexible as possible. Any conceivable URL design should be "
-"allowed."
-msgstr ""
-"URLは可能な限り柔軟性を持たせています。考えうる URL デザインが利用できます。"
+"URLs should be as flexible as possible. Any conceivable URL design should be"
+" allowed."
+msgstr "URLは可能な限り柔軟性を持たせています。考えうる URL デザインが利用できます。"
 
+#: ../../../../sources/3.1/docs/misc/design-philosophies.txt:171
 msgid "Encourage best practices"
 msgstr "ベストプラクティスの推奨"
 
+#: ../../../../sources/3.1/docs/misc/design-philosophies.txt:173
 msgid ""
 "The framework should make it just as easy (or even easier) for a developer "
 "to design pretty URLs than ugly ones."
 msgstr ""
 
+#: ../../../../sources/3.1/docs/misc/design-philosophies.txt:176
 msgid "File extensions in Web-page URLs should be avoided."
 msgstr "WebページのURLにファイル拡張子を含めるのは避けるべきです。"
 
+#: ../../../../sources/3.1/docs/misc/design-philosophies.txt:178
 msgid "Vignette-style commas in URLs deserve severe punishment."
 msgstr ""
 
+#: ../../../../sources/3.1/docs/misc/design-philosophies.txt:183
 msgid "Definitive URLs"
 msgstr ""
 
+#: ../../../../sources/3.1/docs/misc/design-philosophies.txt:187
 msgid ""
 "Technically, ``foo.com/bar`` and ``foo.com/bar/`` are two different URLs, "
 "and search-engine robots (and some Web traffic-analyzing tools) would treat "
@@ -416,245 +408,225 @@ msgid ""
 "so that search-engine robots don't get confused."
 msgstr ""
 
+#: ../../../../sources/3.1/docs/misc/design-philosophies.txt:192
 msgid "This is the reasoning behind the :setting:`APPEND_SLASH` setting."
 msgstr ""
 
+#: ../../../../sources/3.1/docs/misc/design-philosophies.txt:195
 msgid "Template system"
 msgstr "テンプレートシステム"
 
+#: ../../../../sources/3.1/docs/misc/design-philosophies.txt:200
 msgid "Separate logic from presentation"
 msgstr "ロジックのプレゼンテーションからの分離"
 
+#: ../../../../sources/3.1/docs/misc/design-philosophies.txt:202
 msgid ""
 "We see a template system as a tool that controls presentation and "
 "presentation-related logic -- and that's it. The template system shouldn't "
 "support functionality that goes beyond this basic goal."
-msgstr ""
-"私達は、テンプレートシステムはプレゼンテーションとプレゼンテーション関係のロ"
-"ジックを制御するためのツールであり、それ以上のものではないと考えています。 そ"
-"の本分をこえた機能をテンプレートシステムに求めるべきではありません。"
+msgstr "私達は、テンプレートシステムはプレゼンテーションとプレゼンテーション関係のロジックを制御するためのツールであり、それ以上のものではないと考えています。 その本分をこえた機能をテンプレートシステムに求めるべきではありません。"
 
+#: ../../../../sources/3.1/docs/misc/design-philosophies.txt:207
 msgid "Discourage redundancy"
 msgstr "冗長性の排除"
 
+#: ../../../../sources/3.1/docs/misc/design-philosophies.txt:209
 msgid ""
 "The majority of dynamic websites use some sort of common sitewide design -- "
 "a common header, footer, navigation bar, etc. The Django template system "
 "should make it easy to store those elements in a single place, eliminating "
 "duplicate code."
-msgstr ""
-"大多数の動的な Web サイトでは、ヘッダやフッタ、ナビゲーションバーといった部分"
-"のデザインをサイト全体で共通にしています。 Django テンプレートシステムは、 こ"
-"うしたサイトの構成要素を一箇所に保存しやすくし、重複したコードを削除する必要"
-"があります。"
+msgstr "大多数の動的な Web サイトでは、ヘッダやフッタ、ナビゲーションバーといった部分のデザインをサイト全体で共通にしています。 Django テンプレートシステムは、 こうしたサイトの構成要素を一箇所に保存しやすくし、重複したコードを削除する必要があります。"
 
+#: ../../../../sources/3.1/docs/misc/design-philosophies.txt:214
 msgid ""
 "This is the philosophy behind :ref:`template inheritance <template-"
 "inheritance>`."
-msgstr ""
-"これが :ref:`テンプレートの継承 <template-inheritance>` の背後にある思想で"
-"す。"
+msgstr "これが :ref:`テンプレートの継承 <template-inheritance>` の背後にある思想です。"
 
+#: ../../../../sources/3.1/docs/misc/design-philosophies.txt:218
 msgid "Be decoupled from HTML"
 msgstr "HTML と疎結合であれ"
 
+#: ../../../../sources/3.1/docs/misc/design-philosophies.txt:220
 msgid ""
 "The template system shouldn't be designed so that it only outputs HTML. It "
-"should be equally good at generating other text-based formats, or just plain "
-"text."
-msgstr ""
-"テンプレートシステムは、ただ単に HTML だけを出力するように設計されてはいませ"
-"ん。他のテキストベースのフォーマットや、単純なプレインテキストも同じように上"
-"手く生成できるように作られています。"
+"should be equally good at generating other text-based formats, or just plain"
+" text."
+msgstr "テンプレートシステムは、ただ単に HTML だけを出力するように設計されてはいません。他のテキストベースのフォーマットや、単純なプレインテキストも同じように上手く生成できるように作られています。"
 
+#: ../../../../sources/3.1/docs/misc/design-philosophies.txt:225
 msgid "XML should not be used for template languages"
 msgstr "テンプレート言語として、XML を使うべきではない"
 
+#: ../../../../sources/3.1/docs/misc/design-philosophies.txt:229
 msgid ""
-"Using an XML engine to parse templates introduces a whole new world of human "
-"error in editing templates -- and incurs an unacceptable level of overhead "
+"Using an XML engine to parse templates introduces a whole new world of human"
+" error in editing templates -- and incurs an unacceptable level of overhead "
 "in template processing."
-msgstr ""
-"テンプレートをパースするのに XML エンジンを使ってしまうと、テンプレートの編集"
-"に全く新しいヒューマンエラーの世界を作り出してしまい、結果として、テンプレー"
-"ト処理に受け入れられないようなレベルの困難を生み出してしまうでしょう。"
+msgstr "テンプレートをパースするのに XML エンジンを使ってしまうと、テンプレートの編集に全く新しいヒューマンエラーの世界を作り出してしまい、結果として、テンプレート処理に受け入れられないようなレベルの困難を生み出してしまうでしょう。"
 
+#: ../../../../sources/3.1/docs/misc/design-philosophies.txt:234
 msgid "Assume designer competence"
 msgstr "ページデザイナの有能さを前提にする"
 
+#: ../../../../sources/3.1/docs/misc/design-philosophies.txt:236
 msgid ""
 "The template system shouldn't be designed so that templates necessarily are "
 "displayed nicely in WYSIWYG editors such as Dreamweaver. That is too severe "
-"of a limitation and wouldn't allow the syntax to be as nice as it is. Django "
-"expects template authors are comfortable editing HTML directly."
-msgstr ""
-"必ずしも Dreamweaver のような WYSIWYG エディタでうまく表示できるように テンプ"
-"レートシステムを設計する必要はありません。そのような要求は制限が厳しすぎ、本"
-"来あるべきすっきりした構文を実現できなくなります。 Django では 直接 HTML を編"
-"集する作業に慣れたテンプレート作者を想定しています。"
+"of a limitation and wouldn't allow the syntax to be as nice as it is. Django"
+" expects template authors are comfortable editing HTML directly."
+msgstr "必ずしも Dreamweaver のような WYSIWYG エディタでうまく表示できるように テンプレートシステムを設計する必要はありません。そのような要求は制限が厳しすぎ、本来あるべきすっきりした構文を実現できなくなります。 Django では 直接 HTML を編集する作業に慣れたテンプレート作者を想定しています。"
 
+#: ../../../../sources/3.1/docs/misc/design-philosophies.txt:242
 msgid "Treat whitespace obviously"
 msgstr "ホワイトスペースを明示的に扱う"
 
+#: ../../../../sources/3.1/docs/misc/design-philosophies.txt:244
 msgid ""
-"The template system shouldn't do magic things with whitespace. If a template "
-"includes whitespace, the system should treat the whitespace as it treats "
+"The template system shouldn't do magic things with whitespace. If a template"
+" includes whitespace, the system should treat the whitespace as it treats "
 "text -- just display it. Any whitespace that's not in a template tag should "
 "be displayed."
-msgstr ""
-"テンプレートシステムは、ホワイトスペースに対して変わった処理を行うべきではあ"
-"りません。もしテンプレートにホワイトスペースが書かれていれば、他の文字と同じ"
-"ように扱って、それをそのまま表示するべきです。テンプレートタグの外に書かれた"
-"すべてのホワイトスペースは、そのまま表示するべきです。"
+msgstr "テンプレートシステムは、ホワイトスペースに対して変わった処理を行うべきではありません。もしテンプレートにホワイトスペースが書かれていれば、他の文字と同じように扱って、それをそのまま表示するべきです。テンプレートタグの外に書かれたすべてのホワイトスペースは、そのまま表示するべきです。"
 
+#: ../../../../sources/3.1/docs/misc/design-philosophies.txt:250
 msgid "Don't invent a programming language"
 msgstr "新しいプログラミング言語を開発しない"
 
+#: ../../../../sources/3.1/docs/misc/design-philosophies.txt:252
 msgid ""
 "The goal is not to invent a programming language. The goal is to offer just "
 "enough programming-esque functionality, such as branching and looping, that "
 "is essential for making presentation-related decisions. The :ref:`Django "
 "Template Language (DTL) <template-language-intro>` aims to avoid advanced "
 "logic."
-msgstr ""
-"私たちの目的は、新しいプログラミング言語を開発することではありません。本当の"
-"目的は、プログラミング言語が持つような機能を必要十分なだけ使えるようにするこ"
-"とです。たとえば、条件分岐やループといったもので、これらはプレゼンテーション"
-"に関連する決定を下すときに大切になります。 :ref:`Django テンプレート言語 "
-"(Django Template Language; DTL) <template-language-intro>` は、複雑なロジック"
-"を使わずにこの目的を達成するために作られました。"
+msgstr "私たちの目的は、新しいプログラミング言語を開発することではありません。本当の目的は、プログラミング言語が持つような機能を必要十分なだけ使えるようにすることです。たとえば、条件分岐やループといったもので、これらはプレゼンテーションに関連する決定を下すときに大切になります。 :ref:`Django テンプレート言語 (Django Template Language; DTL) <template-language-intro>` は、複雑なロジックを使わずにこの目的を達成するために作られました。"
 
+#: ../../../../sources/3.1/docs/misc/design-philosophies.txt:257
 msgid ""
 "The Django template system recognizes that templates are most often written "
 "by *designers*, not *programmers*, and therefore should not assume Python "
 "knowledge."
-msgstr ""
-"Django のテンプレートシステムは、テンプレートの書き手は *プログラマー* ではな"
-"く、主に *デザイナー* であることを念頭に置いています。そのため、Python の知識"
-"がまったくなくても書けるようになっています。"
+msgstr "Django のテンプレートシステムは、テンプレートの書き手は *プログラマー* ではなく、主に *デザイナー* であることを念頭に置いています。そのため、Python の知識がまったくなくても書けるようになっています。"
 
+#: ../../../../sources/3.1/docs/misc/design-philosophies.txt:262
 msgid "Safety and security"
 msgstr "安全性とセキュリティ"
 
+#: ../../../../sources/3.1/docs/misc/design-philosophies.txt:264
 msgid ""
 "The template system, out of the box, should forbid the inclusion of "
 "malicious code -- such as commands that delete database records."
-msgstr ""
-"テンプレートシステムは、コマンドの実行やデータベースレコードの削除を行うよう"
-"な、悪意のあるコードの挿入ができないようになっていなければなりません。"
+msgstr "テンプレートシステムは、コマンドの実行やデータベースレコードの削除を行うような、悪意のあるコードの挿入ができないようになっていなければなりません。"
 
+#: ../../../../sources/3.1/docs/misc/design-philosophies.txt:267
 msgid ""
 "This is another reason the template system doesn't allow arbitrary Python "
 "code."
-msgstr ""
-"これが、テンプレートシステムが任意の Python コードの実行を許さないようにでき"
-"ているもう一つの理由です。"
+msgstr "これが、テンプレートシステムが任意の Python コードの実行を許さないようにできているもう一つの理由です。"
 
+#: ../../../../sources/3.1/docs/misc/design-philosophies.txt:270
+#: ../../../../sources/3.1/docs/misc/design-philosophies.txt:328
 msgid "Extensibility"
 msgstr "拡張性"
 
+#: ../../../../sources/3.1/docs/misc/design-philosophies.txt:272
 msgid ""
-"The template system should recognize that advanced template authors may want "
-"to extend its technology."
-msgstr ""
-"テンプレートシステムは、高度なテンプレート作者によるテクノロジの拡張に配慮せ"
-"ねばなりません。"
+"The template system should recognize that advanced template authors may want"
+" to extend its technology."
+msgstr "テンプレートシステムは、高度なテンプレート作者によるテクノロジの拡張に配慮せねばなりません。"
 
+#: ../../../../sources/3.1/docs/misc/design-philosophies.txt:275
 msgid "This is the philosophy behind custom template tags and filters."
 msgstr "これが、カスタムテンプレートタグとフィルタの背後にある思想です。"
 
+#: ../../../../sources/3.1/docs/misc/design-philosophies.txt:278
 msgid "Views"
 msgstr "ビュー"
 
+#: ../../../../sources/3.1/docs/misc/design-philosophies.txt:281
 msgid "Simplicity"
 msgstr "シンプルであること"
 
+#: ../../../../sources/3.1/docs/misc/design-philosophies.txt:283
 msgid ""
 "Writing a view should be as simple as writing a Python function. Developers "
 "shouldn't have to instantiate a class when a function will do."
-msgstr ""
-"ビューは、Python の関数を書くのと同じくらい簡単に書けるべきです。開発者は、ふ"
-"つうに関数を書くときと同じように、クラスからインスタンスを作ったりせずに"
-"ビューが書けるべきです。"
+msgstr "ビューは、Python の関数を書くのと同じくらい簡単に書けるべきです。開発者は、ふつうに関数を書くときと同じように、クラスからインスタンスを作ったりせずにビューが書けるべきです。"
 
+#: ../../../../sources/3.1/docs/misc/design-philosophies.txt:287
 msgid "Use request objects"
 msgstr "request オブジェクトを使うこと"
 
+#: ../../../../sources/3.1/docs/misc/design-philosophies.txt:289
 msgid ""
 "Views should have access to a request object -- an object that stores "
 "metadata about the current request. The object should be passed directly to "
 "a view function, rather than the view function having to access the request "
 "data from a global variable. This makes it light, clean and easy to test "
 "views by passing in \"fake\" request objects."
-msgstr ""
-"ビューはリクエストオブジェクトにアクセスします。リクエストオブジェクトとは、 "
-"現在のリクエストに関するメタデータを入れるオブジェクトです。ビューはこのオブ"
-"ジェクトをグローバル変数経由でアクセスするのではなく、引数として直接受け取る"
-"ようにすべきです。それにより、「偽の」リクエストオブジェクトを渡してビューを"
-"簡単かつクリーンにテストできるようになります。"
+msgstr "ビューはリクエストオブジェクトにアクセスします。リクエストオブジェクトとは、 現在のリクエストに関するメタデータを入れるオブジェクトです。ビューはこのオブジェクトをグローバル変数経由でアクセスするのではなく、引数として直接受け取るようにすべきです。それにより、「偽の」リクエストオブジェクトを渡してビューを簡単かつクリーンにテストできるようになります。"
 
+#: ../../../../sources/3.1/docs/misc/design-philosophies.txt:298
 msgid ""
 "A view shouldn't care about which template system the developer uses -- or "
 "even whether a template system is used at all."
-msgstr ""
-"ビューは、開発者がどのテンプレートシステムを使用しているか意識せずに使えるべ"
-"きです。もっと言えば、テンプレートシステム自体を使っているかどうかも気にせず"
-"に使えるようにするべきです。"
+msgstr "ビューは、開発者がどのテンプレートシステムを使用しているか意識せずに使えるべきです。もっと言えば、テンプレートシステム自体を使っているかどうかも気にせずに使えるようにするべきです。"
 
+#: ../../../../sources/3.1/docs/misc/design-philosophies.txt:302
 msgid "Differentiate between GET and POST"
 msgstr "GET と POST を区別"
 
+#: ../../../../sources/3.1/docs/misc/design-philosophies.txt:304
 msgid ""
 "GET and POST are distinct; developers should explicitly use one or the "
-"other. The framework should make it easy to distinguish between GET and POST "
-"data."
-msgstr ""
-"GET と POST は区別します。開発者は明示的に一方を他方と区別して明示的に使用す"
-"るべきです。フレームワークは、GET と POST データを分かりやすく区別できるよう"
-"にしなければなりません。"
+"other. The framework should make it easy to distinguish between GET and POST"
+" data."
+msgstr "GET と POST は区別します。開発者は明示的に一方を他方と区別して明示的に使用するべきです。フレームワークは、GET と POST データを分かりやすく区別できるようにしなければなりません。"
 
+#: ../../../../sources/3.1/docs/misc/design-philosophies.txt:310
 msgid "Cache Framework"
 msgstr "キャッシュフレームワーク"
 
+#: ../../../../sources/3.1/docs/misc/design-philosophies.txt:312
 msgid "The core goals of Django's :doc:`cache framework </topics/cache>` are:"
-msgstr ""
-"Django の :doc:`キャッシュフレームワーク </topics/cache>` の主な目的は次の点"
-"にあります。"
+msgstr "Django の :doc:`キャッシュフレームワーク </topics/cache>` の主な目的は次の点にあります。"
 
+#: ../../../../sources/3.1/docs/misc/design-philosophies.txt:317
 msgid ""
 "A cache should be as fast as possible.  Hence, all framework code "
 "surrounding the cache backend should be kept to the absolute minimum, "
 "especially for ``get()`` operations."
-msgstr ""
-"キャッシュは可能な限り高速でなければならない。したがって、キャッシュバックエ"
-"ンドを包んでいるフレームワークのコード (特に ``get()`` 操作) はすべて、極限ま"
-"で短くするべきである。"
+msgstr "キャッシュは可能な限り高速でなければならない。したがって、キャッシュバックエンドを包んでいるフレームワークのコード (特に ``get()`` 操作) はすべて、極限まで短くするべきである。"
 
+#: ../../../../sources/3.1/docs/misc/design-philosophies.txt:324
 msgid ""
 "The cache API should provide a consistent interface across the different "
 "cache backends."
-msgstr ""
-"キャッシュ API は、バックエントが違っていても一貫したインターフェイスを提供す"
-"るべきである。"
+msgstr "キャッシュ API は、バックエントが違っていても一貫したインターフェイスを提供するべきである。"
 
+#: ../../../../sources/3.1/docs/misc/design-philosophies.txt:330
 msgid ""
 "The cache API should be extensible at the application level based on the "
 "developer's needs (for example, see :ref:`cache_key_transformation`)."
-msgstr ""
-"キャッシュ API は、開発者のニーズにもとづいて、アプリケーションレベルで拡張可"
-"能であるべきである (例としては :ref:`cache_key_transformation` がある)。"
+msgstr "キャッシュ API は、開発者のニーズにもとづいて、アプリケーションレベルで拡張可能であるべきである (例としては :ref:`cache_key_transformation` がある)。"
 
+#: ../../../../sources/3.1/docs/misc/distributions.txt:3
 msgid "Third-party distributions of Django"
 msgstr "サードパーティの Django ディストリビューション"
 
+#: ../../../../sources/3.1/docs/misc/distributions.txt:5
 msgid ""
 "Many third-party distributors are now providing versions of Django "
 "integrated with their package-management systems. These can make "
 "installation and upgrading much easier for users of Django since the "
-"integration includes the ability to automatically install dependencies (like "
-"database adapters) that Django requires."
+"integration includes the ability to automatically install dependencies (like"
+" database adapters) that Django requires."
 msgstr ""
 
+#: ../../../../sources/3.1/docs/misc/distributions.txt:11
 msgid ""
 "Typically, these packages are based on the latest stable release of Django, "
 "so if you want to use the development version of Django you'll need to "
@@ -662,36 +634,37 @@ msgid ""
 "<installing-development-version>` from our Git repository."
 msgstr ""
 
+#: ../../../../sources/3.1/docs/misc/distributions.txt:16
 msgid ""
 "If you're using Linux or a Unix installation, such as OpenSolaris, check "
-"with your distributor to see if they already package Django. If you're using "
-"a Linux distro and don't know how to find out if a package is available, "
-"then now is a good time to learn.  The Django Wiki contains a list of `Third "
-"Party Distributions`_ to help you out."
+"with your distributor to see if they already package Django. If you're using"
+" a Linux distro and don't know how to find out if a package is available, "
+"then now is a good time to learn.  The Django Wiki contains a list of `Third"
+" Party Distributions`_ to help you out."
 msgstr ""
 
+#: ../../../../sources/3.1/docs/misc/distributions.txt:26
 msgid "For distributors"
 msgstr "ディストリビュータ向け"
 
+#: ../../../../sources/3.1/docs/misc/distributions.txt:28
 msgid ""
-"If you'd like to package Django for distribution, we'd be happy to help out! "
-"Please join the |django-developers| mailing list and introduce yourself."
-msgstr ""
-"Django をディストリビューションにパッケージングしたい場合、喜んで手助けしま"
-"す！ |django-developers| メーリングリストに参加して、自己紹介をしてください。"
+"If you'd like to package Django for distribution, we'd be happy to help out!"
+" Please join the |django-developers| mailing list and introduce yourself."
+msgstr "Django をディストリビューションにパッケージングしたい場合、喜んで手助けします！ |django-developers| メーリングリストに参加して、自己紹介をしてください。"
 
+#: ../../../../sources/3.1/docs/misc/distributions.txt:31
 msgid ""
 "We also encourage all distributors to subscribe to the |django-announce| "
-"mailing list, which is a (very) low-traffic list for announcing new releases "
-"of Django and important bugfixes."
-msgstr ""
-"すべてのディストリビュータは |django-announce| メーリングリストを購読すること"
-"を推奨しています。Django の新しいリリースや重要なバグフィックスをお知らせする"
-"ための (非常に) わずかのメールしか送られないメーリングリストです。"
+"mailing list, which is a (very) low-traffic list for announcing new releases"
+" of Django and important bugfixes."
+msgstr "すべてのディストリビュータは |django-announce| メーリングリストを購読することを推奨しています。Django の新しいリリースや重要なバグフィックスをお知らせするための (非常に) わずかのメールしか送られないメーリングリストです。"
 
+#: ../../../../sources/3.1/docs/misc/index.txt:3
 msgid "Meta-documentation and miscellany"
 msgstr "メタドキュメントとその他"
 
+#: ../../../../sources/3.1/docs/misc/index.txt:5
 msgid ""
 "Documentation that we can't find a more organized place for. Like that "
 "drawer in your kitchen with the scissors, batteries, duct tape, and other "
