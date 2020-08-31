@@ -1,7 +1,7 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) Django Software Foundation and contributors
 # This file is distributed under the same license as the Django package.
-# 
+#
 # Translators:
 # xiu1 <d84ea@hotmail.co.jp>, 2015-2017
 # Hiroki KIYOHARA <hirokiky@gmail.com>, 2013-2014
@@ -22,574 +22,615 @@ msgstr ""
 "POT-Creation-Date: 2020-08-28 13:42-0500\n"
 "PO-Revision-Date: 2020-08-04 18:19+0000\n"
 "Last-Translator: Takuya N <takninnovationresearch@gmail.com>\n"
-"Language-Team: Japanese (http://www.transifex.com/django/django-docs/language/ja/)\n"
+"Language-Team: Japanese (http://www.transifex.com/django/django-docs/"
+"language/ja/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: ja\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
-#: ../../../../sources/3.1/docs/index.txt:3
 msgid "Django documentation"
 msgstr "Django ドキュメント"
 
-#: ../../../../sources/3.1/docs/index.txt:6
 msgid "Everything you need to know about Django."
 msgstr "Django を使いこなすための全てがここにあります。"
 
-#: ../../../../sources/3.1/docs/index.txt:10
 msgid "First steps"
 msgstr "最初のステップ"
 
-#: ../../../../sources/3.1/docs/index.txt:12
 msgid "Are you new to Django or to programming? This is the place to start!"
-msgstr "Django やプログラミングは初めてですか？ それなら、ここから始めましょう！"
+msgstr ""
+"Django やプログラミングは初めてですか？ それなら、ここから始めましょう！"
 
-#: ../../../../sources/3.1/docs/index.txt:14
 msgid ""
 "**From scratch:** :doc:`Overview <intro/overview>` | :doc:`Installation "
 "<intro/install>`"
-msgstr "**何もないところから始めるなら:** :doc:`概要 <intro/overview>` | :doc:`インストール <intro/install>`"
+msgstr ""
+"**何もないところから始めるなら:** :doc:`概要 <intro/overview>` | :doc:`インス"
+"トール <intro/install>`"
 
-#: ../../../../sources/3.1/docs/index.txt:18
 msgid ""
-"**Tutorial:** :doc:`Part 1: Requests and responses <intro/tutorial01>` | "
-":doc:`Part 2: Models and the admin site <intro/tutorial02>` | :doc:`Part 3: "
+"**Tutorial:** :doc:`Part 1: Requests and responses <intro/tutorial01>` | :"
+"doc:`Part 2: Models and the admin site <intro/tutorial02>` | :doc:`Part 3: "
 "Views and templates <intro/tutorial03>` | :doc:`Part 4: Forms and generic "
-"views <intro/tutorial04>` | :doc:`Part 5: Testing <intro/tutorial05>` | "
-":doc:`Part 6: Static files <intro/tutorial06>` | :doc:`Part 7: Customizing "
-"the admin site <intro/tutorial07>`"
-msgstr "**チュートリアルはこちら:** :doc:`その 1: リクエストとレスポンス <intro/tutorial01>` | :doc:`その 2: モデルと管理サイト <intro/tutorial02>` | :doc:`その 3: ビューとテンプレート <intro/tutorial03>` | :doc:`その 4: フォームと汎用ビュー <intro/tutorial04>` | :doc:`その 5: テスト <intro/tutorial05>` | :doc:`その 6: 静的ファイル <intro/tutorial06>` | :doc:`その 7: 管理サイトのカスタマイズ <intro/tutorial07>`"
+"views <intro/tutorial04>` | :doc:`Part 5: Testing <intro/tutorial05>` | :doc:"
+"`Part 6: Static files <intro/tutorial06>` | :doc:`Part 7: Customizing the "
+"admin site <intro/tutorial07>`"
+msgstr ""
+"**チュートリアルはこちら:** :doc:`その 1: リクエストとレスポンス <intro/"
+"tutorial01>` | :doc:`その 2: モデルと管理サイト <intro/tutorial02>` | :doc:`"
+"その 3: ビューとテンプレート <intro/tutorial03>` | :doc:`その 4: フォームと汎"
+"用ビュー <intro/tutorial04>` | :doc:`その 5: テスト <intro/tutorial05>` | :"
+"doc:`その 6: 静的ファイル <intro/tutorial06>` | :doc:`その 7: 管理サイトのカ"
+"スタマイズ <intro/tutorial07>`"
 
-#: ../../../../sources/3.1/docs/index.txt:27
 msgid ""
 "**Advanced Tutorials:** :doc:`How to write reusable apps <intro/reusable-"
 "apps>` | :doc:`Writing your first patch for Django <intro/contributing>`"
-msgstr "**高度なチュートリアル:** :doc:`再利用可能なアプリケーションの書き方 <intro/reusable-apps>` | :doc:`Django へのパッチを初めて書くには <intro/contributing>`"
+msgstr ""
+"**高度なチュートリアル:** :doc:`再利用可能なアプリケーションの書き方 <intro/"
+"reusable-apps>` | :doc:`Django へのパッチを初めて書くには <intro/"
+"contributing>`"
 
-#: ../../../../sources/3.1/docs/index.txt:32
 msgid "Getting help"
 msgstr "助けを求める"
 
-#: ../../../../sources/3.1/docs/index.txt:34
 msgid "Having trouble? We'd like to help!"
 msgstr "困り事ですか？手を貸しましょう！"
 
-#: ../../../../sources/3.1/docs/index.txt:36
 msgid ""
 "Try the :doc:`FAQ <faq/index>` -- it's got answers to many common questions."
-msgstr ":doc:`FAQ <faq/index>` を探してみましょう。よくある質問への答えなら、ここで見つかります。"
+msgstr ""
+":doc:`FAQ <faq/index>` を探してみましょう。よくある質問への答えなら、ここで見"
+"つかります。"
 
-#: ../../../../sources/3.1/docs/index.txt:38
 msgid ""
 "Looking for specific information? Try the :ref:`genindex`, :ref:`modindex` "
 "or the :doc:`detailed table of contents <contents>`."
-msgstr "特定のトピックに関する情報を探していますか？ それなら、 :doc:`genindex` や :doc:`modindex` 、そして :doc:`ドキュメントの詳しい目次 <contents>` を見てください。"
+msgstr ""
+"特定のトピックに関する情報を探していますか？ それなら、 :doc:`genindex` や :"
+"doc:`modindex` 、そして :doc:`ドキュメントの詳しい目次 <contents>` を見てくだ"
+"さい。"
 
-#: ../../../../sources/3.1/docs/index.txt:41
 msgid ""
 "Not found anything? See :doc:`faq/help` for information on getting support "
 "and asking questions to the community."
 msgstr ""
 
-#: ../../../../sources/3.1/docs/index.txt:44
 msgid "Report bugs with Django in our `ticket tracker`_."
-msgstr "Django のバグを見つけたときは、 `チケットトラッカー`_ で報告してください。"
+msgstr ""
+"Django のバグを見つけたときは、 `チケットトラッカー`_ で報告してください。"
 
-#: ../../../../sources/3.1/docs/index.txt:49
 msgid "How the documentation is organized"
 msgstr "本ドキュメントの構成"
 
-#: ../../../../sources/3.1/docs/index.txt:51
 msgid ""
 "Django has a lot of documentation. A high-level overview of how it's "
 "organized will help you know where to look for certain things:"
-msgstr "Django にはドキュメントがたくさんあります。あらかじめドキュメントの構成の大まかな概要を知っておけば、特定のトピックを探すときに、どこを探せばいいかすぐに分かるようになるでしょう。"
+msgstr ""
+"Django にはドキュメントがたくさんあります。あらかじめドキュメントの構成の大ま"
+"かな概要を知っておけば、特定のトピックを探すときに、どこを探せばいいかすぐに"
+"分かるようになるでしょう。"
 
-#: ../../../../sources/3.1/docs/index.txt:54
 msgid ""
 ":doc:`Tutorials </intro/index>` take you by the hand through a series of "
-"steps to create a Web application. Start here if you're new to Django or Web"
-" application development. Also look at the \":ref:`index-first-steps`\"."
-msgstr ":doc:`チュートリアル </intro/index>` では、一連のステップを通して、実際に手を動かしながら Web アプリケーションを作ります。もし Django や Web アプリケーションの開発が初めてなら、ここから読み始めてください。「 :ref:`index-first-steps` 」のセクションも読んでみてください。"
+"steps to create a Web application. Start here if you're new to Django or Web "
+"application development. Also look at the \":ref:`index-first-steps`\"."
+msgstr ""
+":doc:`チュートリアル </intro/index>` では、一連のステップを通して、実際に手を"
+"動かしながら Web アプリケーションを作ります。もし Django や Web アプリケー"
+"ションの開発が初めてなら、ここから読み始めてください。「 :ref:`index-first-"
+"steps` 」のセクションも読んでみてください。"
 
-#: ../../../../sources/3.1/docs/index.txt:58
 msgid ""
 ":doc:`Topic guides </topics/index>` discuss key topics and concepts at a "
 "fairly high level and provide useful background information and explanation."
-msgstr ":doc:`トピックガイド </topics/index>` では、重要なトピックや概念について大まかに解説し、役に立つ背景情報や説明を行っています。"
+msgstr ""
+":doc:`トピックガイド </topics/index>` では、重要なトピックや概念について大ま"
+"かに解説し、役に立つ背景情報や説明を行っています。"
 
-#: ../../../../sources/3.1/docs/index.txt:61
 msgid ""
 ":doc:`Reference guides </ref/index>` contain technical reference for APIs "
 "and other aspects of Django's machinery. They describe how it works and how "
 "to use it but assume that you have a basic understanding of key concepts."
-msgstr ":doc:`リファレンスガイド </ref/index>` は、API や他の側面から見た Django の仕組みの技術的なリファレンスです。ここでは、Django の仕組みとその使い方について説明していますが、重要な概念については基本的に理解していることを前提に書かれています。"
+msgstr ""
+":doc:`リファレンスガイド </ref/index>` は、API や他の側面から見た Django の仕"
+"組みの技術的なリファレンスです。ここでは、Django の仕組みとその使い方について"
+"説明していますが、重要な概念については基本的に理解していることを前提に書かれ"
+"ています。"
 
-#: ../../../../sources/3.1/docs/index.txt:65
 msgid ""
 ":doc:`How-to guides </howto/index>` are recipes. They guide you through the "
 "steps involved in addressing key problems and use-cases. They are more "
 "advanced than tutorials and assume some knowledge of how Django works."
-msgstr ":doc:`How-to ガイド </howto/index>` はレシピ集です。よくある問題やユースケースに対して、どんなステップを踏んで解決すればいいかを説明しています。チュートリアルより発展的な内容で、Django の仕組みについてはある程度は理解していることを前提に書いてあります。"
+msgstr ""
+":doc:`How-to ガイド </howto/index>` はレシピ集です。よくある問題やユースケー"
+"スに対して、どんなステップを踏んで解決すればいいかを説明しています。チュート"
+"リアルより発展的な内容で、Django の仕組みについてはある程度は理解していること"
+"を前提に書いてあります。"
 
-#: ../../../../sources/3.1/docs/index.txt:70
 msgid "The model layer"
 msgstr "モデル層"
 
-#: ../../../../sources/3.1/docs/index.txt:72
 msgid ""
 "Django provides an abstraction layer (the \"models\") for structuring and "
 "manipulating the data of your Web application. Learn more about it below:"
-msgstr "Django は、Web アプリケーションのデータ構造を定義、操作するための抽象レイヤ「モデル (models)」を提供しています。詳細は次の通りです:"
+msgstr ""
+"Django は、Web アプリケーションのデータ構造を定義、操作するための抽象レイヤ"
+"「モデル (models)」を提供しています。詳細は次の通りです:"
 
-#: ../../../../sources/3.1/docs/index.txt:75
 msgid ""
 "**Models:** :doc:`Introduction to models <topics/db/models>` | :doc:`Field "
-"types <ref/models/fields>` | :doc:`Indexes <ref/models/indexes>` | "
-":doc:`Meta options <ref/models/options>` | :doc:`Model class "
-"<ref/models/class>`"
-msgstr "**モデル:** :doc:`モデル 入門 <topics/db/models>` | :doc:`フィールド型 <ref/models/fields>` | :doc:`インデックス <ref/models/indexes>` | :doc:`Meta オプション <ref/models/options>` | :doc:`モデルクラス <ref/models/class>`"
+"types <ref/models/fields>` | :doc:`Indexes <ref/models/indexes>` | :doc:"
+"`Meta options <ref/models/options>` | :doc:`Model class <ref/models/class>`"
+msgstr ""
+"**モデル:** :doc:`モデル 入門 <topics/db/models>` | :doc:`フィールド型 <ref/"
+"models/fields>` | :doc:`インデックス <ref/models/indexes>` | :doc:`Meta オプ"
+"ション <ref/models/options>` | :doc:`モデルクラス <ref/models/class>`"
 
-#: ../../../../sources/3.1/docs/index.txt:82
 msgid ""
 "**QuerySets:** :doc:`Making queries <topics/db/queries>` | :doc:`QuerySet "
-"method reference <ref/models/querysets>` | :doc:`Lookup expressions "
-"<ref/models/lookups>`"
-msgstr "**QuerySets:** :doc:`クエリを作成する <topics/db/queries>` | :doc:`QuerySetメソッドリファレンス <ref/models/querysets>` | :doc:`検索式 <ref/models/lookups>`"
+"method reference <ref/models/querysets>` | :doc:`Lookup expressions <ref/"
+"models/lookups>`"
+msgstr ""
+"**QuerySets:** :doc:`クエリを作成する <topics/db/queries>` | :doc:`QuerySetメ"
+"ソッドリファレンス <ref/models/querysets>` | :doc:`検索式 <ref/models/"
+"lookups>`"
 
-#: ../../../../sources/3.1/docs/index.txt:87
 msgid ""
-"**Model instances:** :doc:`Instance methods <ref/models/instances>` | "
-":doc:`Accessing related objects <ref/models/relations>`"
-msgstr "**モデルインスタンス詳説:** :doc:`インスタンスメソッド解説 <ref/models/instances>` | :doc:`リレーション先オブジェクトへのアクセス <ref/models/relations>`"
+"**Model instances:** :doc:`Instance methods <ref/models/instances>` | :doc:"
+"`Accessing related objects <ref/models/relations>`"
+msgstr ""
+"**モデルインスタンス詳説:** :doc:`インスタンスメソッド解説 <ref/models/"
+"instances>` | :doc:`リレーション先オブジェクトへのアクセス <ref/models/"
+"relations>`"
 
-#: ../../../../sources/3.1/docs/index.txt:91
 msgid ""
-"**Migrations:** :doc:`Introduction to Migrations<topics/migrations>` | "
-":doc:`Operations reference <ref/migration-operations>` | :doc:`SchemaEditor "
-"<ref/schema-editor>` | :doc:`Writing migrations <howto/writing-migrations>`"
-msgstr "**マイグレーションとは:** :doc:`マイグレーションの解説 <topics/migrations>` | :doc:`操作方法リファレンス <ref/migration-operations>` | :doc:`スキーマエディタ <ref/schema-editor>` | :doc:`マイグレーションを書くには <howto/writing-migrations>`"
+"**Migrations:** :doc:`Introduction to Migrations<topics/migrations>` | :doc:"
+"`Operations reference <ref/migration-operations>` | :doc:`SchemaEditor <ref/"
+"schema-editor>` | :doc:`Writing migrations <howto/writing-migrations>`"
+msgstr ""
+"**マイグレーションとは:** :doc:`マイグレーションの解説 <topics/migrations>` "
+"| :doc:`操作方法リファレンス <ref/migration-operations>` | :doc:`スキーマエ"
+"ディタ <ref/schema-editor>` | :doc:`マイグレーションを書くには <howto/"
+"writing-migrations>`"
 
-#: ../../../../sources/3.1/docs/index.txt:97
 msgid ""
-"**Advanced:** :doc:`Managers <topics/db/managers>` | :doc:`Raw SQL "
-"<topics/db/sql>` | :doc:`Transactions <topics/db/transactions>` | "
-":doc:`Aggregation <topics/db/aggregation>` | :doc:`Search "
-"<topics/db/search>` | :doc:`Custom fields <howto/custom-model-fields>` | "
-":doc:`Multiple databases <topics/db/multi-db>` | :doc:`Custom lookups <howto"
-"/custom-lookups>` | :doc:`Query Expressions <ref/models/expressions>` | "
-":doc:`Conditional Expressions <ref/models/conditional-expressions>` | "
-":doc:`Database Functions <ref/models/database-functions>`"
-msgstr "**モデルの高度な話題:** :doc:`マネージャ (Manager) <topics/db/managers>` | :doc:`素の SQL を扱うには <topics/db/sql>` | :doc:`トランザクション <topics/db/transactions>` | :doc:`アグリゲーション (Aggregation) <topics/db/aggregation>` | :doc:`検索 <topics/db/search>` | :doc:`フィールド型を自作するには <howto/custom-model-fields>` | :doc:`複数データベースを扱うには <topics/db/multi-db>` | :doc:`lookup フィルタを自作するには <howto/custom-lookups>` | :doc:`クエリを書くには <ref/models/expressions>` | :doc:`条件分岐をするには <ref/models/conditional-expressions>` | :doc:`データベース関数 <ref/models/database-functions>`"
+"**Advanced:** :doc:`Managers <topics/db/managers>` | :doc:`Raw SQL <topics/"
+"db/sql>` | :doc:`Transactions <topics/db/transactions>` | :doc:`Aggregation "
+"<topics/db/aggregation>` | :doc:`Search <topics/db/search>` | :doc:`Custom "
+"fields <howto/custom-model-fields>` | :doc:`Multiple databases <topics/db/"
+"multi-db>` | :doc:`Custom lookups <howto/custom-lookups>` | :doc:`Query "
+"Expressions <ref/models/expressions>` | :doc:`Conditional Expressions <ref/"
+"models/conditional-expressions>` | :doc:`Database Functions <ref/models/"
+"database-functions>`"
+msgstr ""
+"**モデルの高度な話題:** :doc:`マネージャ (Manager) <topics/db/managers>` | :"
+"doc:`素の SQL を扱うには <topics/db/sql>` | :doc:`トランザクション <topics/"
+"db/transactions>` | :doc:`アグリゲーション (Aggregation) <topics/db/"
+"aggregation>` | :doc:`検索 <topics/db/search>` | :doc:`フィールド型を自作する"
+"には <howto/custom-model-fields>` | :doc:`複数データベースを扱うには <topics/"
+"db/multi-db>` | :doc:`lookup フィルタを自作するには <howto/custom-lookups>` "
+"| :doc:`クエリを書くには <ref/models/expressions>` | :doc:`条件分岐をするに"
+"は <ref/models/conditional-expressions>` | :doc:`データベース関数 <ref/"
+"models/database-functions>`"
 
-#: ../../../../sources/3.1/docs/index.txt:110
 msgid ""
 "**Other:** :doc:`Supported databases <ref/databases>` | :doc:`Legacy "
-"databases <howto/legacy-databases>` | :doc:`Providing initial data <howto"
-"/initial-data>` | :doc:`Optimize database access <topics/db/optimization>` |"
-" :doc:`PostgreSQL specific features <ref/contrib/postgres/index>`"
-msgstr "**その他:** :doc:`データベースのサポート状況 <ref/databases>` | :doc:`レガシーなデータベースを扱う <howto/legacy-databases>` | :doc:`初期データを投入するには <howto/initial-data>` | :doc:`データベースアクセスの最適化 <topics/db/optimization>` | :doc:`PostgreSQLの特有の機能を扱うには <ref/contrib/postgres/index>`"
+"databases <howto/legacy-databases>` | :doc:`Providing initial data <howto/"
+"initial-data>` | :doc:`Optimize database access <topics/db/optimization>` | :"
+"doc:`PostgreSQL specific features <ref/contrib/postgres/index>`"
+msgstr ""
+"**その他:** :doc:`データベースのサポート状況 <ref/databases>` | :doc:`レガ"
+"シーなデータベースを扱う <howto/legacy-databases>` | :doc:`初期データを投入す"
+"るには <howto/initial-data>` | :doc:`データベースアクセスの最適化 <topics/db/"
+"optimization>` | :doc:`PostgreSQLの特有の機能を扱うには <ref/contrib/"
+"postgres/index>`"
 
-#: ../../../../sources/3.1/docs/index.txt:118
 msgid "The view layer"
 msgstr "ビュー層"
 
-#: ../../../../sources/3.1/docs/index.txt:120
 msgid ""
-"Django has the concept of \"views\" to encapsulate the logic responsible for"
-" processing a user's request and for returning the response. Find all you "
+"Django has the concept of \"views\" to encapsulate the logic responsible for "
+"processing a user's request and for returning the response. Find all you "
 "need to know about views via the links below:"
-msgstr "Django には「ビュー (views)」と呼ばれる概念があります。ビューは、ユーザーリクエストを処理してレスポンスを返すロジックをカプセル化したものです。以下のリンクから、ビューの詳細を学びましょう。"
+msgstr ""
+"Django には「ビュー (views)」と呼ばれる概念があります。ビューは、ユーザーリク"
+"エストを処理してレスポンスを返すロジックをカプセル化したものです。以下のリン"
+"クから、ビューの詳細を学びましょう。"
 
-#: ../../../../sources/3.1/docs/index.txt:124
 msgid ""
 "**The basics:** :doc:`URLconfs <topics/http/urls>` | :doc:`View functions "
-"<topics/http/views>` | :doc:`Shortcuts <topics/http/shortcuts>` | "
-":doc:`Decorators <topics/http/decorators>` | :doc:`Asynchronous Support "
-"<topics/async>`"
+"<topics/http/views>` | :doc:`Shortcuts <topics/http/shortcuts>` | :doc:"
+"`Decorators <topics/http/decorators>` | :doc:`Asynchronous Support <topics/"
+"async>`"
 msgstr ""
 
-#: ../../../../sources/3.1/docs/index.txt:131
 msgid ""
 "**Reference:** :doc:`Built-in Views <ref/views>` | :doc:`Request/response "
-"objects <ref/request-response>` | :doc:`TemplateResponse objects <ref"
-"/template-response>`"
-msgstr "**リファレンス:** :doc:`組み込みのビュー <ref/views>` | :doc:`リクエスト/レスポンスオブジェクト <ref/request-response>` | :doc:`テンプレートレスポンスオブジェクト <ref/template-response>`"
+"objects <ref/request-response>` | :doc:`TemplateResponse objects <ref/"
+"template-response>`"
+msgstr ""
+"**リファレンス:** :doc:`組み込みのビュー <ref/views>` | :doc:`リクエスト/レス"
+"ポンスオブジェクト <ref/request-response>` | :doc:`テンプレートレスポンスオブ"
+"ジェクト <ref/template-response>`"
 
-#: ../../../../sources/3.1/docs/index.txt:136
 msgid ""
 "**File uploads:** :doc:`Overview <topics/http/file-uploads>` | :doc:`File "
-"objects <ref/files/file>` | :doc:`Storage API <ref/files/storage>` | "
-":doc:`Managing files <topics/files>` | :doc:`Custom storage <howto/custom-"
-"file-storage>`"
-msgstr "**ファイルアップロード:** :doc:`概要 <topics/http/file-uploads>` | :doc:`File オブジェクトリファレンス <ref/files/file>` | :doc:`ストレージ API <ref/files/storage>` | :doc:`ファイルの管理 <topics/files>` | :doc:`ストレージを自作するには <howto/custom-file-storage>`"
+"objects <ref/files/file>` | :doc:`Storage API <ref/files/storage>` | :doc:"
+"`Managing files <topics/files>` | :doc:`Custom storage <howto/custom-file-"
+"storage>`"
+msgstr ""
+"**ファイルアップロード:** :doc:`概要 <topics/http/file-uploads>` | :doc:"
+"`File オブジェクトリファレンス <ref/files/file>` | :doc:`ストレージ API <ref/"
+"files/storage>` | :doc:`ファイルの管理 <topics/files>` | :doc:`ストレージを自"
+"作するには <howto/custom-file-storage>`"
 
-#: ../../../../sources/3.1/docs/index.txt:143
 msgid ""
-"**Class-based views:** :doc:`Overview <topics/class-based-views/index>` | "
-":doc:`Built-in display views <topics/class-based-views/generic-display>` | "
-":doc:`Built-in editing views <topics/class-based-views/generic-editing>` | "
-":doc:`Using mixins <topics/class-based-views/mixins>` | :doc:`API reference "
-"<ref/class-based-views/index>` | :doc:`Flattened index<ref/class-based-views"
-"/flattened-index>`"
-msgstr "**クラスベースビュー:** :doc:`概要 <topics/class-based-views/index>` | :doc:`ビルトインの表示用ビュー <topics/class-based-views/generic-display>` | :doc:`ビルトインの編集用ビュー <topics/class-based-views/generic-editing>` | :doc:`Mixin を使うには <topics/class-based-views/mixins>` | :doc:`API リファレンス <ref/class-based-views/index>` | :doc:`索引<ref/class-based-views/flattened-index>`"
+"**Class-based views:** :doc:`Overview <topics/class-based-views/index>` | :"
+"doc:`Built-in display views <topics/class-based-views/generic-display>` | :"
+"doc:`Built-in editing views <topics/class-based-views/generic-editing>` | :"
+"doc:`Using mixins <topics/class-based-views/mixins>` | :doc:`API reference "
+"<ref/class-based-views/index>` | :doc:`Flattened index<ref/class-based-views/"
+"flattened-index>`"
+msgstr ""
+"**クラスベースビュー:** :doc:`概要 <topics/class-based-views/index>` | :doc:`"
+"ビルトインの表示用ビュー <topics/class-based-views/generic-display>` | :doc:`"
+"ビルトインの編集用ビュー <topics/class-based-views/generic-editing>` | :doc:"
+"`Mixin を使うには <topics/class-based-views/mixins>` | :doc:`API リファレン"
+"ス <ref/class-based-views/index>` | :doc:`索引<ref/class-based-views/"
+"flattened-index>`"
 
-#: ../../../../sources/3.1/docs/index.txt:151
 msgid ""
-"**Advanced:** :doc:`Generating CSV <howto/outputting-csv>` | "
-":doc:`Generating PDF <howto/outputting-pdf>`"
-msgstr "**より高度なビューの話題:** :doc:`CSV を出力するには <howto/outputting-csv>` | :doc:`PDF を出力するには <howto/outputting-pdf>`"
+"**Advanced:** :doc:`Generating CSV <howto/outputting-csv>` | :doc:"
+"`Generating PDF <howto/outputting-pdf>`"
+msgstr ""
+"**より高度なビューの話題:** :doc:`CSV を出力するには <howto/outputting-csv>` "
+"| :doc:`PDF を出力するには <howto/outputting-pdf>`"
 
-#: ../../../../sources/3.1/docs/index.txt:155
 msgid ""
 "**Middleware:** :doc:`Overview <topics/http/middleware>` | :doc:`Built-in "
 "middleware classes <ref/middleware>`"
-msgstr "**ミドルウェア:** :doc:`ミドルウェアとは <topics/http/middleware>` | :doc:`ビルトインのミドルウェアクラス <ref/middleware>`"
+msgstr ""
+"**ミドルウェア:** :doc:`ミドルウェアとは <topics/http/middleware>` | :doc:`ビ"
+"ルトインのミドルウェアクラス <ref/middleware>`"
 
-#: ../../../../sources/3.1/docs/index.txt:160
 msgid "The template layer"
 msgstr "テンプレート層"
 
-#: ../../../../sources/3.1/docs/index.txt:162
 msgid ""
 "The template layer provides a designer-friendly syntax for rendering the "
 "information to be presented to the user. Learn how this syntax can be used "
 "by designers and how it can be extended by programmers:"
-msgstr "テンプレート層は、ユーザに表示される情報をレンダリングするための、デザイナーにも書きやすい構文を提供します。デザイナーによるテンプレートの構文の使い方や、プログラマーが構文を拡張する方法について学びましょう。"
+msgstr ""
+"テンプレート層は、ユーザに表示される情報をレンダリングするための、デザイナー"
+"にも書きやすい構文を提供します。デザイナーによるテンプレートの構文の使い方"
+"や、プログラマーが構文を拡張する方法について学びましょう。"
 
-#: ../../../../sources/3.1/docs/index.txt:166
 msgid "**The basics:** :doc:`Overview <topics/templates>`"
 msgstr "**基本:** :doc:`概要 <topics/templates>`"
 
-#: ../../../../sources/3.1/docs/index.txt:169
 msgid ""
-"**For designers:** :doc:`Language overview <ref/templates/language>` | :doc"
-":`Built-in tags and filters <ref/templates/builtins>` | :doc:`Humanization "
+"**For designers:** :doc:`Language overview <ref/templates/language>` | :doc:"
+"`Built-in tags and filters <ref/templates/builtins>` | :doc:`Humanization "
 "<ref/contrib/humanize>`"
-msgstr "**デザイナー向けの情報:** :doc:`テンプレートの書き方概要 <ref/templates/language>` | :doc:`ビルトインタグとフィルタ <ref/templates/builtins>` | :doc:`人間にやさしい出力生成 <ref/contrib/humanize>`"
+msgstr ""
+"**デザイナー向けの情報:** :doc:`テンプレートの書き方概要 <ref/templates/"
+"language>` | :doc:`ビルトインタグとフィルタ <ref/templates/builtins>` | :doc:"
+"`人間にやさしい出力生成 <ref/contrib/humanize>`"
 
-#: ../../../../sources/3.1/docs/index.txt:174
 msgid ""
 "**For programmers:** :doc:`Template API <ref/templates/api>` | :doc:`Custom "
 "tags and filters <howto/custom-template-tags>` | :doc:`Custom template "
 "backend <howto/custom-template-backend>`"
 msgstr ""
 
-#: ../../../../sources/3.1/docs/index.txt:180
 msgid "Forms"
 msgstr "フォーム"
 
-#: ../../../../sources/3.1/docs/index.txt:182
 msgid ""
-"Django provides a rich framework to facilitate the creation of forms and the"
-" manipulation of form data."
-msgstr "Django には、フォームを簡単に作成したり、フォームに入力されたデータを簡単に操作できるようにしてくれる、多機能なフレームワークがあります。"
+"Django provides a rich framework to facilitate the creation of forms and the "
+"manipulation of form data."
+msgstr ""
+"Django には、フォームを簡単に作成したり、フォームに入力されたデータを簡単に操"
+"作できるようにしてくれる、多機能なフレームワークがあります。"
 
-#: ../../../../sources/3.1/docs/index.txt:185
 msgid ""
-"**The basics:** :doc:`Overview <topics/forms/index>` | :doc:`Form API "
-"<ref/forms/api>` | :doc:`Built-in fields <ref/forms/fields>` | :doc:`Built-"
-"in widgets <ref/forms/widgets>`"
-msgstr "**フォームの基礎:** :doc:`概要 <topics/forms/index>` | :doc:`フォーム API <ref/forms/api>` | :doc:`ビルトインフォームフィールド <ref/forms/fields>` | :doc:`ビルトインウィジェット <ref/forms/widgets>`"
+"**The basics:** :doc:`Overview <topics/forms/index>` | :doc:`Form API <ref/"
+"forms/api>` | :doc:`Built-in fields <ref/forms/fields>` | :doc:`Built-in "
+"widgets <ref/forms/widgets>`"
+msgstr ""
+"**フォームの基礎:** :doc:`概要 <topics/forms/index>` | :doc:`フォーム API "
+"<ref/forms/api>` | :doc:`ビルトインフォームフィールド <ref/forms/fields>` | :"
+"doc:`ビルトインウィジェット <ref/forms/widgets>`"
 
-#: ../../../../sources/3.1/docs/index.txt:191
 msgid ""
-"**Advanced:** :doc:`Forms for models <topics/forms/modelforms>` | "
-":doc:`Integrating media <topics/forms/media>` | :doc:`Formsets "
-"<topics/forms/formsets>` | :doc:`Customizing validation "
-"<ref/forms/validation>`"
-msgstr "**高度な話題:** :doc:`モデルに対応したフォームを生成するには <topics/forms/modelforms>` | :doc:`メディアファイルを組み込むには <topics/forms/media>` | :doc:`フォームセットを扱うには <topics/forms/formsets>` | :doc:`バリデータを自作するには <ref/forms/validation>`"
+"**Advanced:** :doc:`Forms for models <topics/forms/modelforms>` | :doc:"
+"`Integrating media <topics/forms/media>` | :doc:`Formsets <topics/forms/"
+"formsets>` | :doc:`Customizing validation <ref/forms/validation>`"
+msgstr ""
+"**高度な話題:** :doc:`モデルに対応したフォームを生成するには <topics/forms/"
+"modelforms>` | :doc:`メディアファイルを組み込むには <topics/forms/media>` | :"
+"doc:`フォームセットを扱うには <topics/forms/formsets>` | :doc:`バリデータを自"
+"作するには <ref/forms/validation>`"
 
-#: ../../../../sources/3.1/docs/index.txt:198
 msgid "The development process"
 msgstr "開発プロセス"
 
-#: ../../../../sources/3.1/docs/index.txt:200
 msgid ""
 "Learn about the various components and tools to help you in the development "
 "and testing of Django applications:"
-msgstr "Django アプリケーションの開発とテストに役立つ、さまざまなコンポーネントとツールについて学ましょう。"
+msgstr ""
+"Django アプリケーションの開発とテストに役立つ、さまざまなコンポーネントとツー"
+"ルについて学ましょう。"
 
-#: ../../../../sources/3.1/docs/index.txt:203
 msgid ""
 "**Settings:** :doc:`Overview <topics/settings>` | :doc:`Full list of "
 "settings <ref/settings>`"
-msgstr "**設定:** :doc:`概要 <topics/settings>` | :doc:`設定項目 <ref/settings>`"
+msgstr ""
+"**設定:** :doc:`概要 <topics/settings>` | :doc:`設定項目 <ref/settings>`"
 
-#: ../../../../sources/3.1/docs/index.txt:207
 msgid "**Applications:** :doc:`Overview <ref/applications>`"
 msgstr "**アプリケーション:** :doc:`概要 <ref/applications>`"
 
-#: ../../../../sources/3.1/docs/index.txt:210
 msgid "**Exceptions:** :doc:`Overview <ref/exceptions>`"
 msgstr "**例外:** :doc:`例外の概要 <ref/exceptions>`"
 
-#: ../../../../sources/3.1/docs/index.txt:213
 msgid ""
-"**django-admin and manage.py:** :doc:`Overview <ref/django-admin>` | "
-":doc:`Adding custom commands <howto/custom-management-commands>`"
-msgstr "**django-admin と manage.py:** :doc:`概要 <ref/django-admin>` | :doc:`自作の管理コマンドを追加するには <howto/custom-management-commands>`"
+"**django-admin and manage.py:** :doc:`Overview <ref/django-admin>` | :doc:"
+"`Adding custom commands <howto/custom-management-commands>`"
+msgstr ""
+"**django-admin と manage.py:** :doc:`概要 <ref/django-admin>` | :doc:`自作の"
+"管理コマンドを追加するには <howto/custom-management-commands>`"
 
-#: ../../../../sources/3.1/docs/index.txt:217
 msgid ""
 "**Testing:** :doc:`Introduction <topics/testing/index>` | :doc:`Writing and "
 "running tests <topics/testing/overview>` | :doc:`Included testing tools "
 "<topics/testing/tools>` | :doc:`Advanced topics <topics/testing/advanced>`"
-msgstr "**テスト:** :doc:`概要 <topics/testing/index>` | :doc:`テストの書き方と実行方法 <topics/testing/overview>` | :doc:`テストのツール <topics/testing/tools>` | :doc:`高度な話題 <topics/testing/advanced>`"
+msgstr ""
+"**テスト:** :doc:`概要 <topics/testing/index>` | :doc:`テストの書き方と実行方"
+"法 <topics/testing/overview>` | :doc:`テストのツール <topics/testing/tools>` "
+"| :doc:`高度な話題 <topics/testing/advanced>`"
 
-#: ../../../../sources/3.1/docs/index.txt:223
 msgid ""
 "**Deployment:** :doc:`Overview <howto/deployment/index>` | :doc:`WSGI "
-"servers <howto/deployment/wsgi/index>` | :doc:`ASGI servers "
-"<howto/deployment/asgi/index>` | :doc:`Deploying static files <howto/static-"
-"files/deployment>` | :doc:`Tracking code errors by email <howto/error-"
-"reporting>` | :doc:`Deployment checklist <howto/deployment/checklist>`"
-msgstr "**デプロイ:** :doc:`概要 <howto/deployment/index>` | :doc:`WSGI サーバー <howto/deployment/wsgi/index>` | :doc:`ASGI サーバー <howto/deployment/asgi/index>` | :doc:`静的なファイルをデプロイする <howto/static-files/deployment>` | :doc:`メールでコードのエラーを追跡する <howto/error-reporting>` | :doc:`デプロイのチェックリスト <howto/deployment/checklist>`"
+"servers <howto/deployment/wsgi/index>` | :doc:`ASGI servers <howto/"
+"deployment/asgi/index>` | :doc:`Deploying static files <howto/static-files/"
+"deployment>` | :doc:`Tracking code errors by email <howto/error-reporting>` "
+"| :doc:`Deployment checklist <howto/deployment/checklist>`"
+msgstr ""
+"**デプロイ:** :doc:`概要 <howto/deployment/index>` | :doc:`WSGI サーバー "
+"<howto/deployment/wsgi/index>` | :doc:`ASGI サーバー <howto/deployment/asgi/"
+"index>` | :doc:`静的なファイルをデプロイする <howto/static-files/"
+"deployment>` | :doc:`メールでコードのエラーを追跡する <howto/error-"
+"reporting>` | :doc:`デプロイのチェックリスト <howto/deployment/checklist>`"
 
-#: ../../../../sources/3.1/docs/index.txt:232
 msgid "The admin"
 msgstr "管理インタフェース"
 
-#: ../../../../sources/3.1/docs/index.txt:234
 msgid ""
 "Find all you need to know about the automated admin interface, one of "
 "Django's most popular features:"
-msgstr "Django の目玉機能の一つである、自動生成の管理インタフェースのすべてを学びましょう。"
+msgstr ""
+"Django の目玉機能の一つである、自動生成の管理インタフェースのすべてを学びま"
+"しょう。"
 
-#: ../../../../sources/3.1/docs/index.txt:237
 msgid ":doc:`Admin site <ref/contrib/admin/index>`"
 msgstr ":doc:`管理サイト <ref/contrib/admin/index>`"
 
-#: ../../../../sources/3.1/docs/index.txt:238
 msgid ":doc:`Admin actions <ref/contrib/admin/actions>`"
 msgstr ":doc:`管理アクション <ref/contrib/admin/actions>`"
 
-#: ../../../../sources/3.1/docs/index.txt:239
 msgid ":doc:`Admin documentation generator<ref/contrib/admin/admindocs>`"
 msgstr ":doc:`管理サイトのドキュメント生成 <ref/contrib/admin/admindocs>`"
 
-#: ../../../../sources/3.1/docs/index.txt:242
 msgid "Security"
 msgstr "セキュリティ"
 
-#: ../../../../sources/3.1/docs/index.txt:244
 msgid ""
 "Security is a topic of paramount importance in the development of Web "
 "applications and Django provides multiple protection tools and mechanisms:"
-msgstr "セキュリティは Web アプリケーションを開発する中でも最も重要なトピックです。Django は、複数のプロテクションのためのツールとメカニズムを提供しています:"
+msgstr ""
+"セキュリティは Web アプリケーションを開発する中でも最も重要なトピックです。"
+"Django は、複数のプロテクションのためのツールとメカニズムを提供しています:"
 
-#: ../../../../sources/3.1/docs/index.txt:247
 msgid ":doc:`Security overview <topics/security>`"
 msgstr ":doc:`セキュリティの概要 <topics/security>`"
 
-#: ../../../../sources/3.1/docs/index.txt:248
 msgid ":doc:`Disclosed security issues in Django <releases/security>`"
 msgstr ":doc:`公表済みの Django のセキュリティ問題 <releases/security>`"
 
-#: ../../../../sources/3.1/docs/index.txt:249
 msgid ":doc:`Clickjacking protection <ref/clickjacking>`"
 msgstr ":doc:`クリックジャッキング対策 <ref/clickjacking>`"
 
-#: ../../../../sources/3.1/docs/index.txt:250
 msgid ":doc:`Cross Site Request Forgery protection <ref/csrf>`"
 msgstr ":doc:`クロスサイトリクエストフォージェリ対策 <ref/csrf>`"
 
-#: ../../../../sources/3.1/docs/index.txt:251
 msgid ":doc:`Cryptographic signing <topics/signing>`"
 msgstr ":doc:`暗号による署名 <topics/signing>`"
 
-#: ../../../../sources/3.1/docs/index.txt:252
 msgid ":ref:`Security Middleware <security-middleware>`"
 msgstr ":ref:`セキュリティ関連ミドルウェア <security-middleware>`"
 
-#: ../../../../sources/3.1/docs/index.txt:255
 msgid "Internationalization and localization"
 msgstr "国際化と地域化"
 
-#: ../../../../sources/3.1/docs/index.txt:257
 msgid ""
 "Django offers a robust internationalization and localization framework to "
 "assist you in the development of applications for multiple languages and "
 "world regions:"
-msgstr "Django は堅牢な国際化、地域化フレームワークを提供しています。これらのフレームワークを使えば、多言語、世界の各地域に対応したアプリケーションが簡単に開発できます。"
+msgstr ""
+"Django は堅牢な国際化、地域化フレームワークを提供しています。これらのフレーム"
+"ワークを使えば、多言語、世界の各地域に対応したアプリケーションが簡単に開発で"
+"きます。"
 
-#: ../../../../sources/3.1/docs/index.txt:261
 msgid ""
-":doc:`Overview <topics/i18n/index>` | :doc:`Internationalization "
-"<topics/i18n/translation>` | :ref:`Localization <how-to-create-language-"
-"files>` | :doc:`Localized Web UI formatting and form input "
-"<topics/i18n/formatting>`"
-msgstr ":doc:`概要 <topics/i18n/index>` | :doc:`国際化 <topics/i18n/translation>` | :ref:`地域化 <how-to-create-language-files>` | :doc:`地域化されたWeb UIフォーマットとフォームインプット <topics/i18n/formatting>`"
+":doc:`Overview <topics/i18n/index>` | :doc:`Internationalization <topics/"
+"i18n/translation>` | :ref:`Localization <how-to-create-language-files>` | :"
+"doc:`Localized Web UI formatting and form input <topics/i18n/formatting>`"
+msgstr ""
+":doc:`概要 <topics/i18n/index>` | :doc:`国際化 <topics/i18n/translation>` | :"
+"ref:`地域化 <how-to-create-language-files>` | :doc:`地域化されたWeb UIフォー"
+"マットとフォームインプット <topics/i18n/formatting>`"
 
-#: ../../../../sources/3.1/docs/index.txt:265
 msgid ":doc:`Time zones </topics/i18n/timezones>`"
 msgstr ":doc:`タイムゾーン </topics/i18n/timezones>`"
 
-#: ../../../../sources/3.1/docs/index.txt:268
 msgid "Performance and optimization"
 msgstr "パフォーマンスと最適化"
 
-#: ../../../../sources/3.1/docs/index.txt:270
 msgid ""
 "There are a variety of techniques and tools that can help get your code "
 "running more efficiently - faster, and using fewer system resources."
-msgstr "ソースコードをさらに効率的かつ高速に実行し、より少ないシステムリソースで動作するようにするのを助けてくれる、様々な技術とツールが存在します。"
+msgstr ""
+"ソースコードをさらに効率的かつ高速に実行し、より少ないシステムリソースで動作"
+"するようにするのを助けてくれる、様々な技術とツールが存在します。"
 
-#: ../../../../sources/3.1/docs/index.txt:273
 msgid ":doc:`Performance and optimization overview <topics/performance>`"
 msgstr ":doc:`パフォーマンスと最適化の概要 <topics/performance>`"
 
-#: ../../../../sources/3.1/docs/index.txt:276
 msgid "Geographic framework"
 msgstr "地理情報フレームワーク"
 
-#: ../../../../sources/3.1/docs/index.txt:278
 msgid ""
 ":doc:`GeoDjango <ref/contrib/gis/index>` intends to be a world-class "
 "geographic Web framework. Its goal is to make it as easy as possible to "
 "build GIS Web applications and harness the power of spatially enabled data."
-msgstr ":doc:`GeoDjango <ref/contrib/gis/index>` は世界規模の地理情報 Web フレームワークを目指しています。 GeoDjango の目的は、地理情報システム (GIS) のWeb アプリケーションの開発をより簡単にし、空間データ (spatially enabled data) を活用することにあります。"
+msgstr ""
+":doc:`GeoDjango <ref/contrib/gis/index>` は世界規模の地理情報 Web フレーム"
+"ワークを目指しています。 GeoDjango の目的は、地理情報システム (GIS) のWeb ア"
+"プリケーションの開発をより簡単にし、空間データ (spatially enabled data) を活"
+"用することにあります。"
 
-#: ../../../../sources/3.1/docs/index.txt:283
 msgid "Common Web application tools"
 msgstr "一般的な Web アプリケーションツール群"
 
-#: ../../../../sources/3.1/docs/index.txt:285
 msgid ""
 "Django offers multiple tools commonly needed in the development of Web "
 "applications:"
-msgstr "Django は Web アプリケーションの開発でいつも必要になるツール群を提供しています。"
+msgstr ""
+"Django は Web アプリケーションの開発でいつも必要になるツール群を提供していま"
+"す。"
 
-#: ../../../../sources/3.1/docs/index.txt:288
 msgid ""
 "**Authentication:** :doc:`Overview <topics/auth/index>` | :doc:`Using the "
 "authentication system <topics/auth/default>` | :doc:`Password management "
-"<topics/auth/passwords>` | :doc:`Customizing authentication "
-"<topics/auth/customizing>` | :doc:`API Reference <ref/contrib/auth>`"
-msgstr "**認証:** :doc:`概要 <topics/auth/index>` | :doc:`認証システムを使う <topics/auth/default>` | :doc:`パスワード管理 <topics/auth/passwords>` | :doc:`認証の処理を自作する <topics/auth/customizing>` | :doc:`API リファレンス <ref/contrib/auth>`"
+"<topics/auth/passwords>` | :doc:`Customizing authentication <topics/auth/"
+"customizing>` | :doc:`API Reference <ref/contrib/auth>`"
+msgstr ""
+"**認証:** :doc:`概要 <topics/auth/index>` | :doc:`認証システムを使う <topics/"
+"auth/default>` | :doc:`パスワード管理 <topics/auth/passwords>` | :doc:`認証の"
+"処理を自作する <topics/auth/customizing>` | :doc:`API リファレンス <ref/"
+"contrib/auth>`"
 
-#: ../../../../sources/3.1/docs/index.txt:294
 msgid ":doc:`Caching <topics/cache>`"
 msgstr ":doc:`キャッシュシステム <topics/cache>`"
 
-#: ../../../../sources/3.1/docs/index.txt:295
 msgid ":doc:`Logging <topics/logging>`"
 msgstr ":doc:`ログ出力 <topics/logging>`"
 
-#: ../../../../sources/3.1/docs/index.txt:296
 msgid ":doc:`Sending emails <topics/email>`"
 msgstr ":doc:`メール送信 <topics/email>`"
 
-#: ../../../../sources/3.1/docs/index.txt:297
 msgid ":doc:`Syndication feeds (RSS/Atom) <ref/contrib/syndication>`"
 msgstr ":doc:`配信フィード (RSS/Atom) <ref/contrib/syndication>`"
 
-#: ../../../../sources/3.1/docs/index.txt:298
 msgid ":doc:`Pagination <topics/pagination>`"
 msgstr ":doc:`ページ分割表示 <topics/pagination>`"
 
-#: ../../../../sources/3.1/docs/index.txt:299
 msgid ":doc:`Messages framework <ref/contrib/messages>`"
 msgstr ":doc:`メッセージフレームワーク <ref/contrib/messages>`"
 
-#: ../../../../sources/3.1/docs/index.txt:300
 msgid ":doc:`Serialization <topics/serialization>`"
 msgstr ":doc:`データのシリアライズ <topics/serialization>`"
 
-#: ../../../../sources/3.1/docs/index.txt:301
 msgid ":doc:`Sessions <topics/http/sessions>`"
 msgstr ":doc:`セッション <topics/http/sessions>`"
 
-#: ../../../../sources/3.1/docs/index.txt:302
 msgid ":doc:`Sitemaps <ref/contrib/sitemaps>`"
 msgstr ":doc:`サイトマップ <ref/contrib/sitemaps>`"
 
-#: ../../../../sources/3.1/docs/index.txt:303
 msgid ":doc:`Static files management <ref/contrib/staticfiles>`"
 msgstr ":doc:`静的ファイル管理 <ref/contrib/staticfiles>`"
 
-#: ../../../../sources/3.1/docs/index.txt:304
 msgid ":doc:`Data validation <ref/validators>`"
 msgstr ":doc:`データバリデーション <ref/validators>`"
 
-#: ../../../../sources/3.1/docs/index.txt:307
 msgid "Other core functionalities"
 msgstr "その他の主要機能"
 
-#: ../../../../sources/3.1/docs/index.txt:309
 msgid "Learn about some other core functionalities of the Django framework:"
 msgstr "Django フレームワークの、その他の主要機能について学びましょう。"
 
-#: ../../../../sources/3.1/docs/index.txt:311
 msgid ""
 ":doc:`Conditional content processing <topics/conditional-view-processing>`"
 msgstr ":doc:`条件付きコンテンツ処理 <topics/conditional-view-processing>`"
 
-#: ../../../../sources/3.1/docs/index.txt:312
 msgid ":doc:`Content types and generic relations <ref/contrib/contenttypes>`"
 msgstr ":doc:`コンテンツタイプと汎用リレーション <ref/contrib/contenttypes>`"
 
-#: ../../../../sources/3.1/docs/index.txt:313
 msgid ":doc:`Flatpages <ref/contrib/flatpages>`"
-msgstr ":doc:`flatpages: フラットページコンテンツの管理 <ref/contrib/flatpages>`"
+msgstr ""
+":doc:`flatpages: フラットページコンテンツの管理 <ref/contrib/flatpages>`"
 
-#: ../../../../sources/3.1/docs/index.txt:314
 msgid ":doc:`Redirects <ref/contrib/redirects>`"
 msgstr ":doc:`リクエストのリダイレクト <ref/contrib/redirects>`"
 
-#: ../../../../sources/3.1/docs/index.txt:315
 msgid ":doc:`Signals <topics/signals>`"
 msgstr ":doc:`イベントのシグナル <topics/signals>`"
 
-#: ../../../../sources/3.1/docs/index.txt:316
 msgid ":doc:`System check framework <topics/checks>`"
 msgstr ":doc:`システムチェックフレームワーク <topics/checks>`"
 
-#: ../../../../sources/3.1/docs/index.txt:317
 msgid ":doc:`The sites framework <ref/contrib/sites>`"
 msgstr ":doc:`サイトフレームワーク <ref/contrib/sites>`"
 
-#: ../../../../sources/3.1/docs/index.txt:318
 msgid ":doc:`Unicode in Django <ref/unicode>`"
 msgstr ":doc:`Django での Unicode の扱い方 <ref/unicode>`"
 
-#: ../../../../sources/3.1/docs/index.txt:321
 msgid "The Django open-source project"
 msgstr "オープンソースプロジェクトとしての Django"
 
-#: ../../../../sources/3.1/docs/index.txt:323
 msgid ""
 "Learn about the development process for the Django project itself and about "
 "how you can contribute:"
-msgstr "Django プロジェクト自身の開発プロセスと、プロジェクトに貢献する方法について学びましょう。"
+msgstr ""
+"Django プロジェクト自身の開発プロセスと、プロジェクトに貢献する方法について学"
+"びましょう。"
 
-#: ../../../../sources/3.1/docs/index.txt:326
 msgid ""
-"**Community:** :doc:`How to get involved <internals/contributing/index>` | "
-":doc:`The release process <internals/release-process>` | :doc:`Team "
+"**Community:** :doc:`How to get involved <internals/contributing/index>` | :"
+"doc:`The release process <internals/release-process>` | :doc:`Team "
 "organization <internals/organization>` | :doc:`The Django source code "
 "repository <internals/git>` | :doc:`Security policies <internals/security>` "
 "| :doc:`Mailing lists <internals/mailing-lists>`"
-msgstr "**コミュニティ:** :doc:`参加するには <internals/contributing/index>` | :doc:`リリースプロセス <internals/release-process>` | :doc:`チーム組織 <internals/organization>` | :doc:`Djangoのソースコードリポジトリ <internals/git>` | :doc:`セキュリティポリシー <internals/security>` | :doc:`メーリングリスト <internals/mailing-lists>`"
+msgstr ""
+"**コミュニティ:** :doc:`参加するには <internals/contributing/index>` | :doc:`"
+"リリースプロセス <internals/release-process>` | :doc:`チーム組織 <internals/"
+"organization>` | :doc:`Djangoのソースコードリポジトリ <internals/git>` | :"
+"doc:`セキュリティポリシー <internals/security>` | :doc:`メーリングリスト "
+"<internals/mailing-lists>`"
 
-#: ../../../../sources/3.1/docs/index.txt:334
 msgid "**Design philosophies:** :doc:`Overview <misc/design-philosophies>`"
 msgstr "**設計思想:** :doc:`概要 <misc/design-philosophies>`"
 
-#: ../../../../sources/3.1/docs/index.txt:337
 msgid ""
-"**Documentation:** :doc:`About this documentation <internals/contributing"
-"/writing-documentation>`"
-msgstr "**ドキュメンテーション:** :doc:`ドキュメントの仕組みと書き方 <internals/contributing/writing-documentation>`"
+"**Documentation:** :doc:`About this documentation <internals/contributing/"
+"writing-documentation>`"
+msgstr ""
+"**ドキュメンテーション:** :doc:`ドキュメントの仕組みと書き方 <internals/"
+"contributing/writing-documentation>`"
 
-#: ../../../../sources/3.1/docs/index.txt:340
 msgid "**Third-party distributions:** :doc:`Overview <misc/distributions>`"
-msgstr "**サードパーティが配布している Django:** :doc:`概要 <misc/distributions>`"
+msgstr ""
+"**サードパーティが配布している Django:** :doc:`概要 <misc/distributions>`"
 
-#: ../../../../sources/3.1/docs/index.txt:343
 msgid ""
-"**Django over time:** :doc:`API stability <misc/api-stability>` | "
-":doc:`Release notes and upgrading instructions <releases/index>` | "
-":doc:`Deprecation Timeline <internals/deprecation>`"
-msgstr "**Django と長く付き合うために:** :doc:`API の安定性 <misc/api-stability>` | :doc:`リリースノート一覧とアップグレードの手順 <releases/index>` | :doc:`撤廃機能のスケジュール <internals/deprecation>`"
+"**Django over time:** :doc:`API stability <misc/api-stability>` | :doc:"
+"`Release notes and upgrading instructions <releases/index>` | :doc:"
+"`Deprecation Timeline <internals/deprecation>`"
+msgstr ""
+"**Django と長く付き合うために:** :doc:`API の安定性 <misc/api-stability>` | :"
+"doc:`リリースノート一覧とアップグレードの手順 <releases/index>` | :doc:`撤廃"
+"機能のスケジュール <internals/deprecation>`"
