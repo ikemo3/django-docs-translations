@@ -31,9 +31,9 @@
 # Safu9 <safu9.dev@gmail.com>, 2019
 # Shinoda Yukihiko <yuk.hik.future@gmail.com>, 2019
 # Shoya Shiraki <12c1055@gmail.com>, 2020
-# TAKAHASHI Shuuji <shuuji3@gmail.com>, 2016-2017,2019
+# Shuuji TAKAHASHI <shuuji3@gmail.com>, 2016-2017,2019
 # Suzuki Takahiro <bur8787@gmail.com>, 2016
-# TAKAHASHI Shuuji <shuuji3@gmail.com>, 2016-2018,2020
+# Shuuji TAKAHASHI <shuuji3@gmail.com>, 2016-2018,2020
 # Takashi Iwamoto, 2018
 # Takashi Sugawara <aimaimokomoko@gmail.com>, 2017
 # Takayuki Hirai, 2015
@@ -52,8 +52,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: django-docs\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-08-28 13:42-0500\n"
-"PO-Revision-Date: 2020-08-29 13:43+0000\n"
+"POT-Creation-Date: 2020-08-31 06:42-0500\n"
+"PO-Revision-Date: 2020-08-31 13:44+0000\n"
 "Last-Translator: Ikemoto Hideki <ikemo333@gmail.com>\n"
 "Language-Team: Japanese (http://www.transifex.com/django/django-docs/"
 "language/ja/)\n"
@@ -8115,7 +8115,7 @@ msgid ""
 "are querying can include traversing \"reverse\" relationships. The lowercase "
 "name of related models and double-underscores are used here too."
 msgstr ""
-":ref:`lookups-that-span-relationships`と似たように、モデルのフィールドやモデ"
+":ref:`lookups-that-span-relationships` と似たように、モデルのフィールドやモデ"
 "ルのリレーションに関する集計は\"後ろ向きの\"リレーションを含むことができま"
 "す。ここでも小文字にしたモデル名と2つのアンダースコアが用いられます。"
 
@@ -8960,8 +8960,9 @@ msgid ""
 "With this example, you'd use ``OpinionPoll.objects.with_counts()`` to return "
 "that list of ``OpinionPoll`` objects with ``num_responses`` attributes."
 msgstr ""
-"この例では、``OpinionPoll.objects.with_counts()``を使うことで、"
-"``num_responses``属性のある``OpinionPoll``オブジェクトのリストが得られます。"
+"この例では、 ``OpinionPoll.objects.with_counts()`` を使うことで、 "
+"``num_responses`` 属性のある ``OpinionPoll`` オブジェクトのリストが得られま"
+"す。"
 
 msgid ""
 "Another thing to note about this example is that ``Manager`` methods can "
@@ -27377,7 +27378,7 @@ msgid ""
 msgstr ""
 "DjangoのデータベースAPI機能を使用する場合は、データベースサーバーが実行されて"
 "いることを確認する必要があります。Djangoは多くの異なるデータベースサーバーを"
-"サポートし、PostgreSQL_、MariaDB_、MySQL_、Oracle_ およびSQLite_で公式にサ"
+"サポートし、PostgreSQL_、MariaDB_、MySQL_、Oracle_ および SQLite_ で公式にサ"
 "ポートされています。"
 
 msgid ""
